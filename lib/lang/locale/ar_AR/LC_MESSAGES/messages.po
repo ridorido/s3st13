@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Senayan3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-26 18:04+0700\n"
-"PO-Revision-Date: 2010-02-26 18:04+0700\n"
+"POT-Creation-Date: 2010-02-26 18:20+0700\n"
+"PO-Revision-Date: 2010-02-26 18:20+0700\n"
 "Last-Translator: M. Rasyid Ridho <rasyidridho@gmail.com>\n"
 "Language-Team: M. Rasyid Ridho. Miranti Heras Tuwinda <rasyidridho@gmail.com, windaa_4588@rocketmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -1225,7 +1225,7 @@ msgstr ""
 #: admin/modules/stock_take/current.php:91
 #: admin/modules/stock_take/lost_item_list.php:120
 #: admin/modules/bibliography/pop_attach.php:185
-#: admin/modules/bibliography/dl_print.php:199
+#: admin/modules/bibliography/dl_print.php:200
 msgid "Title"
 msgstr "عنوان كتاب"
 
@@ -1408,59 +1408,59 @@ msgid "Hide Filter Options"
 msgstr ""
 
 #: admin/modules/stock_take/lost_item_list.php:123
-#: admin/modules/bibliography/dl_print.php:200
+#: admin/modules/bibliography/dl_print.php:201
 msgid "Call Number"
 msgstr "رقم التصنيف"
 
-#: admin/modules/bibliography/iframe_item_list.php:74
+#: admin/modules/bibliography/iframe_item_list.php:70
 msgid "Item data can not be deleted because still on hold by members"
 msgstr ""
 
-#: admin/modules/bibliography/iframe_item_list.php:80
+#: admin/modules/bibliography/iframe_item_list.php:76
 msgid "Item succesfully removed!"
 msgstr "تم حذف عناصر"
 
-#: admin/modules/bibliography/iframe_item_list.php:85
+#: admin/modules/bibliography/iframe_item_list.php:81
 msgid "Item FAILED to removed!"
 msgstr "لم يتم حذف عناصر"
 
-#: admin/modules/bibliography/export.php:103
+#: admin/modules/bibliography/export.php:102
 msgid "Error on query to database, Export FAILED!"
 msgstr ""
 
-#: admin/modules/bibliography/export.php:141
+#: admin/modules/bibliography/export.php:140
 msgid "There is no record in bibliographic database yet, Export FAILED!"
 msgstr ""
 
-#: admin/modules/bibliography/export.php:150
+#: admin/modules/bibliography/export.php:149
 msgid "EXPORT TOOL"
 msgstr "ادؤاات التصدير"
 
-#: admin/modules/bibliography/export.php:152
+#: admin/modules/bibliography/export.php:151
 msgid "Export bibliographics data to CSV file"
 msgstr ""
 
-#: admin/modules/bibliography/export.php:159
+#: admin/modules/bibliography/export.php:158
 msgid "Export Now"
 msgstr "إرسال الآن"
 
-#: admin/modules/bibliography/export.php:168
+#: admin/modules/bibliography/export.php:167
 msgid "Field Separator"
 msgstr "فاصل حقل"
 
-#: admin/modules/bibliography/export.php:170
+#: admin/modules/bibliography/export.php:169
 msgid "Field Enclosed With"
 msgstr "الميدان محاطة"
 
-#: admin/modules/bibliography/export.php:174
+#: admin/modules/bibliography/export.php:173
 msgid "Record Separator"
 msgstr "فاصل السجلات"
 
-#: admin/modules/bibliography/export.php:176
+#: admin/modules/bibliography/export.php:175
 msgid "Number of Records To Export (0 for all records)"
 msgstr "عدد السجلات لتصدي ( 0 لكل حقل) "
 
-#: admin/modules/bibliography/export.php:178
+#: admin/modules/bibliography/export.php:177
 msgid "Start From Record"
 msgstr ""
 
@@ -1558,47 +1558,47 @@ msgstr "تم مسح طابورالطباعة"
 msgid "There is no data to print!"
 msgstr "ﻻ توجد بيانات فالطباعة"
 
-#: admin/modules/bibliography/dl_print.php:171
+#: admin/modules/bibliography/dl_print.php:172
 msgid "Labels Printing"
 msgstr "طباعة رقعة الكتاب "
 
-#: admin/modules/bibliography/dl_print.php:171
+#: admin/modules/bibliography/dl_print.php:172
 msgid "Print Labels for Selected Data"
 msgstr ""
 
-#: admin/modules/bibliography/dl_print.php:172
+#: admin/modules/bibliography/dl_print.php:173
 msgid "Clear Print Queue"
 msgstr "مسح طابور الطباعة"
 
-#: admin/modules/bibliography/dl_print.php:180
+#: admin/modules/bibliography/dl_print.php:181
 msgid "Maximum"
 msgstr ""
 
-#: admin/modules/bibliography/dl_print.php:180
+#: admin/modules/bibliography/dl_print.php:181
 msgid "records can be printed at once. Currently there is"
 msgstr ""
 
-#: admin/modules/bibliography/dl_print.php:184
+#: admin/modules/bibliography/dl_print.php:185
 msgid "in queue waiting to be printed."
 msgstr ""
 
-#: admin/modules/bibliography/dl_print.php:227
+#: admin/modules/bibliography/dl_print.php:228
 msgid "Add"
 msgstr "اضافة"
 
-#: admin/modules/bibliography/dl_print.php:228
+#: admin/modules/bibliography/dl_print.php:229
 msgid "Add To Print Queue"
 msgstr "اضافة فى الطابورالطباعة"
 
-#: admin/modules/bibliography/dl_print.php:229
+#: admin/modules/bibliography/dl_print.php:230
 msgid "Add to print queue?"
 msgstr "هل تؤكد بإضافة فى الطابورالطباعة؟"
 
-#: admin/modules/bibliography/dl_print.php:237
+#: admin/modules/bibliography/dl_print.php:238
 msgid "Query took"
 msgstr ""
 
-#: admin/modules/bibliography/dl_print.php:237
+#: admin/modules/bibliography/dl_print.php:238
 msgid "second(s) to complete"
 msgstr ""
 
@@ -1767,8 +1767,8 @@ msgstr "بصدد تعديل إعدادات البيانات ببليوغرافي
 msgid "Last Updated"
 msgstr "آخر تحديث"
 
-#: admin/modules/bibliography/index.php:510
-#: admin/modules/bibliography/index.php:516
+#: admin/modules/bibliography/index.php:506
+#: admin/modules/bibliography/index.php:512
 msgid "Copies"
 msgstr "عدد النسخ المطبوعة"
 
@@ -1810,7 +1810,7 @@ msgid "Print Document Labels"
 msgstr ""
 
 #: admin/modules/bibliography/submenu.php:32
-#: admin/modules/bibliography/item_barcode_generator.php:196
+#: admin/modules/bibliography/item_barcode_generator.php:197
 msgid "Item Barcodes Printing"
 msgstr "عنصر الباركود طباعة"
 
@@ -1832,6 +1832,24 @@ msgstr "إرسال بيانات"
 
 #: admin/modules/bibliography/submenu.php:34
 msgid "Export Bibliographic Data To CSV format"
+msgstr ""
+
+#: admin/modules/bibliography/submenu.php:35
+#, fuzzy
+msgid "Item Import"
+msgstr "ملف للاستيراد"
+
+#: admin/modules/bibliography/submenu.php:35
+msgid "Import Data to Item/Copies database from CSV file"
+msgstr ""
+
+#: admin/modules/bibliography/submenu.php:36
+#, fuzzy
+msgid "Item Export"
+msgstr "رمزالعناصر"
+
+#: admin/modules/bibliography/submenu.php:36
+msgid "Export Item/Copies data To CSV format"
 msgstr ""
 
 #: admin/modules/bibliography/item.php:53
@@ -1861,35 +1879,35 @@ msgstr "متاح"
 
 #: admin/modules/bibliography/item.php:303
 msgid "Order Number"
-msgstr ""
+msgstr "رقم الطلب"
 
 #: admin/modules/bibliography/item.php:305
 msgid "Order Date"
-msgstr ""
+msgstr "تاريخ الطلب"
 
 #: admin/modules/bibliography/item.php:307
 msgid "Receiving Date"
-msgstr ""
+msgstr "تاريخ اﻻستقبال"
 
 #: admin/modules/bibliography/item.php:317
 msgid "Buy"
-msgstr ""
+msgstr "شراء"
 
 #: admin/modules/bibliography/item.php:318
 msgid "Prize/Grant"
-msgstr ""
+msgstr "هبة"
 
 #: admin/modules/bibliography/item.php:319
 msgid "Source"
-msgstr ""
+msgstr "اصل"
 
 #: admin/modules/bibliography/item.php:321
 msgid "Invoice"
-msgstr ""
+msgstr "الفاطرة"
 
 #: admin/modules/bibliography/item.php:323
 msgid "Invoice Date"
-msgstr ""
+msgstr "تاريج الفاطرة"
 
 #: admin/modules/bibliography/item.php:327
 msgid "Price"
@@ -1923,19 +1941,19 @@ msgstr "استيراد الآن!"
 msgid "File To Import"
 msgstr "ملف للاستيراد"
 
-#: admin/modules/bibliography/iframe_attach.php:73
+#: admin/modules/bibliography/iframe_attach.php:69
 msgid "Attachment removed!"
 msgstr ""
 
-#: admin/modules/bibliography/iframe_author.php:65
+#: admin/modules/bibliography/iframe_author.php:61
 msgid "Author succesfully removed!"
 msgstr ""
 
-#: admin/modules/bibliography/iframe_author.php:76
+#: admin/modules/bibliography/iframe_author.php:72
 msgid "Author removed!"
 msgstr ""
 
-#: admin/modules/bibliography/item_barcode_generator.php:196
+#: admin/modules/bibliography/item_barcode_generator.php:197
 msgid "Print Barcodes for Selected Data"
 msgstr ""
 
@@ -2147,6 +2165,7 @@ msgid "Item ID"
 msgstr ""
 
 #: admin/modules/circulation/quick_return.php:52
+#: admin/modules/circulation/pop_loan_receipt.php:101
 #: admin/modules/circulation/loan_list.php:83
 msgid "Return"
 msgstr ""
@@ -2168,7 +2187,7 @@ msgid "View and Modify Circulation Loan Rules"
 msgstr ""
 
 #: admin/modules/circulation/submenu.php:27
-#: admin/modules/circulation/circulation_action.php:479
+#: admin/modules/circulation/circulation_action.php:483
 msgid "Loan History"
 msgstr ""
 
@@ -2227,7 +2246,7 @@ msgid "days(s) with fines value"
 msgstr ""
 
 #: admin/modules/circulation/loan_list.php:149
-#: admin/modules/circulation/circulation_action.php:252
+#: admin/modules/circulation/circulation_action.php:254
 msgid "Item {itemCode} is being reserved by member {member}"
 msgstr ""
 
@@ -2239,147 +2258,147 @@ msgstr ""
 msgid "Transaction finished"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:75
-#: admin/modules/circulation/circulation_action.php:97
+#: admin/modules/circulation/circulation_action.php:77
+#: admin/modules/circulation/circulation_action.php:99
 msgid "Overdue fines inserted to fines database"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:88
+#: admin/modules/circulation/circulation_action.php:90
 msgid "Item CANNOT BE Extended! This Item is being reserved by other member"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:95
+#: admin/modules/circulation/circulation_action.php:97
 msgid "Loan Extended"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:123
-#: admin/modules/circulation/circulation_action.php:130
+#: admin/modules/circulation/circulation_action.php:125
+#: admin/modules/circulation/circulation_action.php:132
 msgid "Loan Limit Reached!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:123
-#: admin/modules/circulation/circulation_action.php:144
+#: admin/modules/circulation/circulation_action.php:125
+#: admin/modules/circulation/circulation_action.php:146
 msgid "Do You Want To Overide This?"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:144
+#: admin/modules/circulation/circulation_action.php:146
 msgid "WARNING! This Item is reserved by another member"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:154
+#: admin/modules/circulation/circulation_action.php:156
 msgid "This Item is not registered in database"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:159
+#: admin/modules/circulation/circulation_action.php:161
 msgid "This Item is currently not available"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:164
+#: admin/modules/circulation/circulation_action.php:166
 msgid "Loan NOT PERMITTED! Membership already EXPIRED!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:169
+#: admin/modules/circulation/circulation_action.php:171
 msgid "Loan NOT PERMITTED! Membership under PENDING State!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:174
+#: admin/modules/circulation/circulation_action.php:176
 msgid "Loan Forbidden for this Item!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:211
+#: admin/modules/circulation/circulation_action.php:213
 msgid "Item {removeID} removed from session"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:228
+#: admin/modules/circulation/circulation_action.php:230
 msgid "This is item already returned or not exists in loan database"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:239
+#: admin/modules/circulation/circulation_action.php:241
 msgid "OVERDUED for {overdueDays} days(s) with fines value of"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:263
+#: admin/modules/circulation/circulation_action.php:265
 msgid " successfully returned on"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:265
-#: admin/modules/circulation/circulation_action.php:434
+#: admin/modules/circulation/circulation_action.php:267
+#: admin/modules/circulation/circulation_action.php:438
 msgid "Member Name"
 msgstr "اسم الأعضاء"
 
-#: admin/modules/circulation/circulation_action.php:291
+#: admin/modules/circulation/circulation_action.php:293
 msgid "NO DATA Selected to reserve!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:304
+#: admin/modules/circulation/circulation_action.php:306
 msgid "Can not add more reservation. Maximum limit reached"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:322
+#: admin/modules/circulation/circulation_action.php:324
 msgid "Can't reserve this Item. Loan Forbidden!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:340
+#: admin/modules/circulation/circulation_action.php:342
 msgid "Reservation added"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:345
+#: admin/modules/circulation/circulation_action.php:347
 msgid "Item for this title is already available or already on hold by this member!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:364
+#: admin/modules/circulation/circulation_action.php:366
 msgid "Reservation removed"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:379
+#: admin/modules/circulation/circulation_action.php:381
 msgid "Fines data removed"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:403
+#: admin/modules/circulation/circulation_action.php:405
 msgid " not valid (unregistered in database)"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:430
+#: admin/modules/circulation/circulation_action.php:434
 msgid "Finish Transaction"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:430
+#: admin/modules/circulation/circulation_action.php:434
 msgid "Are you sure want to finish current transaction?"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:446
+#: admin/modules/circulation/circulation_action.php:450
 msgid "Member Email"
 msgstr "عنوان البريد الإلكتروني"
 
-#: admin/modules/circulation/circulation_action.php:450
+#: admin/modules/circulation/circulation_action.php:454
 msgid "Register Date"
 msgstr "تاريخ التسجيل"
 
-#: admin/modules/circulation/circulation_action.php:454
+#: admin/modules/circulation/circulation_action.php:458
 msgid "Membership Already Expired"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:456
+#: admin/modules/circulation/circulation_action.php:460
 msgid "Expiry Date"
 msgstr "تاريخ الانتهاء"
 
-#: admin/modules/circulation/circulation_action.php:466
+#: admin/modules/circulation/circulation_action.php:470
 msgid "Membership currently in pending state, loan transaction is locked."
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:473
+#: admin/modules/circulation/circulation_action.php:477
 msgid "Loans"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:474
+#: admin/modules/circulation/circulation_action.php:478
 msgid "Current Loans"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:476
+#: admin/modules/circulation/circulation_action.php:480
 msgid "Reserve"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:478
+#: admin/modules/circulation/circulation_action.php:482
 msgid "Fines"
 msgstr ""
 
@@ -2523,6 +2542,7 @@ msgid "Content data FAILED to save!"
 msgstr ""
 
 #: admin/modules/system/content.php:131
+#: admin/modules/system/submenu.php:28
 msgid "Content"
 msgstr ""
 
@@ -2779,7 +2799,7 @@ msgid "Configure Holiday Setting"
 msgstr ""
 
 #: admin/modules/system/submenu.php:36
-#: admin/modules/system/barcode_generator.php:111
+#: admin/modules/system/barcode_generator.php:112
 msgid "Barcode Generator"
 msgstr ""
 
@@ -2832,36 +2852,36 @@ msgstr ""
 msgid "You are going to edit Group data"
 msgstr ""
 
-#: admin/modules/system/barcode_generator.php:96
+#: admin/modules/system/barcode_generator.php:97
 msgid "Error creating barcode!"
 msgstr ""
 
-#: admin/modules/system/barcode_generator.php:101
+#: admin/modules/system/barcode_generator.php:102
 msgid "Barcode generation finished"
 msgstr ""
 
-#: admin/modules/system/barcode_generator.php:111
+#: admin/modules/system/barcode_generator.php:112
 msgid "Type barcodes text to one or more text field below and click"
 msgstr ""
 
-#: admin/modules/system/barcode_generator.php:111
-#: admin/modules/system/barcode_generator.php:141
+#: admin/modules/system/barcode_generator.php:112
+#: admin/modules/system/barcode_generator.php:142
 msgid "Generate Barcodes"
 msgstr ""
 
-#: admin/modules/system/barcode_generator.php:125
+#: admin/modules/system/barcode_generator.php:126
 msgid "Barcode Size"
 msgstr ""
 
-#: admin/modules/system/barcode_generator.php:125
+#: admin/modules/system/barcode_generator.php:126
 msgid "Small"
 msgstr ""
 
-#: admin/modules/system/barcode_generator.php:126
+#: admin/modules/system/barcode_generator.php:127
 msgid "Medium"
 msgstr ""
 
-#: admin/modules/system/barcode_generator.php:127
+#: admin/modules/system/barcode_generator.php:128
 msgid "Big"
 msgstr ""
 
@@ -3149,7 +3169,6 @@ msgid "Below member data can't be deleted because still have unreturned item(s)"
 msgstr ""
 
 #: admin/modules/membership/index.php:246
-#: admin/modules/membership/submenu.php:23
 msgid "Membership"
 msgstr "عضوية"
 
@@ -3261,6 +3280,7 @@ msgid "View and modify member type"
 msgstr ""
 
 #: admin/modules/membership/submenu.php:28
+#: admin/modules/membership/member_card_generator.php:195
 msgid "Member Card Printing"
 msgstr ""
 
@@ -3284,7 +3304,7 @@ msgstr ""
 msgid "Import for members data from CSV file"
 msgstr ""
 
-#: admin/modules/membership/member_card_generator.php:194
+#: admin/modules/membership/member_card_generator.php:195
 msgid "Print Member Cards for Selected Data"
 msgstr ""
 
@@ -3345,7 +3365,7 @@ msgid "record each page"
 msgstr ""
 
 #: admin/modules/reporting/report_dbgrid.inc.php:83
-#: admin/modules/reporting/customs/class_recap.php:230
+#: admin/modules/reporting/customs/class_recap.php:255
 msgid "Print Current Page"
 msgstr ""
 
@@ -3449,13 +3469,11 @@ msgstr ""
 
 #: admin/modules/reporting/customs/item_titles_list.php:118
 #: admin/modules/reporting/customs/overdued_list.php:82
-#: admin/modules/reporting/customs/member_loan_list.php:82
 msgid "Record each page"
 msgstr ""
 
 #: admin/modules/reporting/customs/item_titles_list.php:119
 #: admin/modules/reporting/customs/overdued_list.php:83
-#: admin/modules/reporting/customs/member_loan_list.php:83
 msgid "Set between 20 and 200"
 msgstr ""
 
@@ -3533,7 +3551,7 @@ msgstr ""
 msgid "Recap By"
 msgstr ""
 
-#: admin/modules/reporting/customs/class_recap.php:230
+#: admin/modules/reporting/customs/class_recap.php:255
 msgid "Title and Collection Recap by"
 msgstr ""
 
@@ -3570,7 +3588,6 @@ msgid "List of library member/patron"
 msgstr ""
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:29
-#: admin/modules/reporting/customs/member_loan_list.php:54
 msgid "Loan List by Member"
 msgstr ""
 
@@ -3612,12 +3629,10 @@ msgid "Circulation Tasks"
 msgstr ""
 
 #: admin/modules/reporting/customs/overdued_list.php:66
-#: admin/modules/reporting/customs/member_loan_list.php:66
 msgid "Loan Date From"
 msgstr ""
 
 #: admin/modules/reporting/customs/overdued_list.php:74
-#: admin/modules/reporting/customs/member_loan_list.php:74
 msgid "Loan Date Until"
 msgstr ""
 
@@ -3731,16 +3746,15 @@ msgstr "تصاعديا"
 msgid "descendingly"
 msgstr "تنازليًا"
 
-#: simbio2/simbio_DB/datagrid/simbio_dbgrid.inc.php:206
-#: simbio2/simbio_DB/datagrid/simbio_dbgrid.inc.php:208
+#: simbio2/simbio_DB/datagrid/simbio_dbgrid.inc.php:204
 msgid "Order list by"
 msgstr ""
 
-#: simbio2/simbio_DB/datagrid/simbio_dbgrid.inc.php:371
+#: simbio2/simbio_DB/datagrid/simbio_dbgrid.inc.php:357
 msgid "Check All"
 msgstr "تفحص الكل"
 
-#: simbio2/simbio_DB/datagrid/simbio_dbgrid.inc.php:372
+#: simbio2/simbio_DB/datagrid/simbio_dbgrid.inc.php:358
 msgid "Uncheck All"
 msgstr "غير محدود كلها"
 
@@ -3749,32 +3763,26 @@ msgid "Date"
 msgstr "تاريخ"
 
 #: simbio2/simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php:87
-#: simbio2/simbio_GUI/form_maker/simbio_form_table.inc.php:95
 msgid "Delete Record"
 msgstr "مسح السجل"
 
 #: simbio2/simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php:88
-#: simbio2/simbio_GUI/form_maker/simbio_form_table.inc.php:96
 msgid "Cancel"
 msgstr "إلغاء"
 
 #: simbio2/simbio_GUI/paging/simbio_paging.inc.php:111
-#: simbio2/simbio_GUI/paging/simbio_paging_ajax.inc.php:107
 msgid "First Page"
 msgstr "الصفحة الأولى"
 
 #: simbio2/simbio_GUI/paging/simbio_paging.inc.php:113
-#: simbio2/simbio_GUI/paging/simbio_paging_ajax.inc.php:109
 msgid "Previous"
 msgstr ""
 
 #: simbio2/simbio_GUI/paging/simbio_paging.inc.php:134
-#: simbio2/simbio_GUI/paging/simbio_paging_ajax.inc.php:130
 msgid "Next"
 msgstr "التالي"
 
 #: simbio2/simbio_GUI/paging/simbio_paging.inc.php:142
-#: simbio2/simbio_GUI/paging/simbio_paging_ajax.inc.php:138
 msgid "Last Page"
 msgstr "الصفحة الأخيرة"
 
@@ -3859,20 +3867,20 @@ msgid "copies at"
 msgstr ""
 
 #: lib/lang/localisation.php:60
-msgid "German"
-msgstr "ألماني"
-
-#: lib/lang/localisation.php:61
 msgid "English"
 msgstr "انجليزى"
 
-#: lib/lang/localisation.php:62
+#: lib/lang/localisation.php:61
 msgid "Indonesian"
 msgstr "أندونيسيا"
 
+#: lib/lang/localisation.php:62
+msgid "German"
+msgstr "ألماني"
+
 #: lib/lang/localisation.php:63
-msgid "Arabic"
-msgstr "عربي"
+msgid "Espanol"
+msgstr ""
 
 #: lib/contents/login.inc.php:48
 msgid "Please supply valid username and password"
@@ -3915,80 +3923,80 @@ msgstr "كل الواد اﻷؤلية / الؤسائط"
 msgid "Welcome to Member's Area where you can view your current loan information and view your membership status."
 msgstr ""
 
-#: lib/contents/member.inc.php:51
+#: lib/contents/member.inc.php:54
 msgid "Please fill your Username and Password to Login!"
 msgstr "أدخل اسم المستخدم وكلمةالسر!"
 
-#: lib/contents/member.inc.php:66
+#: lib/contents/member.inc.php:69
 msgid "Login FAILED! Wrong username or password!"
 msgstr "فشل فى الدخول! اسم المسثخدم وكلمةالسر غيرصحيحين!"
 
-#: lib/contents/member.inc.php:76
+#: lib/contents/member.inc.php:79
 msgid "Library Member Login"
 msgstr "اسم المستخدم للأعضاءالمكتبة"
 
-#: lib/contents/member.inc.php:77
+#: lib/contents/member.inc.php:80
 msgid "Please insert your member ID and password given by library system administrator. If you are library's member and don't have a password yet, please contact library staff."
 msgstr "رجاءادخل تعريف الأعضاء وكلمةالسر يعطى من نظام إدارة بيانات للمكتبة. فإذاكنث اعضاءالمكتبة ولم تنال كلمةالسر, رجاء الإصال أمين المكتبة."
 
-#: lib/contents/member.inc.php:81
+#: lib/contents/member.inc.php:84
 msgid "Password"
 msgstr "كلمة السر"
 
-#: lib/contents/member.inc.php:83
+#: lib/contents/member.inc.php:86
 msgid "Login"
 msgstr "تسجيل دخول"
 
-#: lib/contents/member.inc.php:100
+#: lib/contents/member.inc.php:103
 msgid "Current Password"
 msgstr "قائمة كلمة السر"
 
-#: lib/contents/member.inc.php:108
+#: lib/contents/member.inc.php:111
 msgid "Confirm Password"
 msgstr "تأكيد كلمة السر"
 
-#: lib/contents/member.inc.php:112
-#: lib/contents/member.inc.php:278
+#: lib/contents/member.inc.php:115
+#: lib/contents/member.inc.php:281
 msgid "Change Password"
 msgstr "تغيير كلمة السر"
 
-#: lib/contents/member.inc.php:171
+#: lib/contents/member.inc.php:174
 msgid "Your Membership Already EXPIRED! Please extend your membership."
 msgstr "إنهت ا لعضوية!"
 
-#: lib/contents/member.inc.php:174
+#: lib/contents/member.inc.php:177
 msgid "Membership currently in pending state, no loan transaction can be made yet."
 msgstr ""
 
-#: lib/contents/member.inc.php:207
+#: lib/contents/member.inc.php:210
 msgid "OVERDUED"
 msgstr "التأخير"
 
-#: lib/contents/member.inc.php:252
+#: lib/contents/member.inc.php:255
 msgid "item(s) currently on loan"
 msgstr "العناصرعلى الإعارةحالياً"
 
-#: lib/contents/member.inc.php:260
+#: lib/contents/member.inc.php:263
 msgid "Your password have been changed successfully."
 msgstr "تم تغييركلمةالسر"
 
-#: lib/contents/member.inc.php:263
+#: lib/contents/member.inc.php:266
 msgid "Current password entered WRONG! Please insert the right password!"
 msgstr "ادخال كلمةالسرغيرصحيحين!رجاءادخال كلمةالصحيحة"
 
-#: lib/contents/member.inc.php:265
+#: lib/contents/member.inc.php:268
 msgid "Password confirmation FAILED! Make sure to check undercase or uppercase letters!"
 msgstr ""
 
-#: lib/contents/member.inc.php:267
+#: lib/contents/member.inc.php:270
 msgid "Password update FAILED! ERROR ON DATABASE!"
 msgstr ""
 
-#: lib/contents/member.inc.php:274
+#: lib/contents/member.inc.php:277
 msgid "Member Detail"
 msgstr ""
 
-#: lib/contents/member.inc.php:276
+#: lib/contents/member.inc.php:279
 msgid "Your Current Loan"
 msgstr "اﻹعارةاحاالحالي"
 
@@ -4003,4 +4011,7 @@ msgstr "غير متاح"
 #: lib/contents/attachment_list.php:48
 msgid "No Attachment"
 msgstr "المرفق غير متاح"
+
+#~ msgid "Arabic"
+#~ msgstr "عربي"
 
