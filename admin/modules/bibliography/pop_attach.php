@@ -89,7 +89,7 @@ if (isset($_POST['upload']) AND trim(strip_tags($_POST['fileTitle'])) != '') {
             $fdata['uploader_id'] = $_SESSION['uid'];
             $fdata['file_title'] = $dbs->escape_string($title);
             $fdata['file_name'] = $dbs->escape_string($url);
-            $fdata['file_url'] = $fdata['file_name'];
+            $fdata['file_url'] = $dbs->escape_string($fdata['file_name']);
             $fdata['file_dir'] = 'literal{NULL}';
             $fdata['file_desc'] = $dbs->escape_string(trim(strip_tags($_POST['fileDesc'])));
             $fdata['mime_type'] = 'text/uri-list';
@@ -182,7 +182,7 @@ if ($file_attach_d['biblio_id'] AND $file_attach_d['file_id']) {
 }
 
 // file title
-$form->addTextField('text', 'fileTitle', __('Title'), $file_attach_d['file_title'], 'style="width: 100%; overflow: auto;"');
+$form->addTextField('text', 'fileTitle', __('Title').'*', $file_attach_d['file_title'], 'style="width: 100%; overflow: auto;"');
 // file attachment
 if ($file_attach_d['file_name']) {
     $form->addAnything('Attachment', $file_attach_d['file_dir'].'/'.$file_attach_d['file_name']);

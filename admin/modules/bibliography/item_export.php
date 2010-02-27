@@ -18,22 +18,23 @@
  *
  */
 
-/* Member data export section */
+
+/* Item data export section */
 
 // main system configuration
 require '../../../sysconfig.inc.php';
 // start the session
 require SENAYAN_BASE_DIR.'admin/default/session.inc.php';
-require SENAYAN_BASE_DIR.'admin/default/session_check.inc.php';
-require SIMBIO_BASE_DIR.'simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php';
 require SIMBIO_BASE_DIR.'simbio_GUI/table/simbio_table.inc.php';
+require SIMBIO_BASE_DIR.'simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php';
+require SIMBIO_BASE_DIR.'simbio_DB/simbio_dbop.inc.php';
 
 // privileges checking
-$can_read = utility::havePrivilege('membership', 'r');
-$can_write = utility::havePrivilege('membership', 'w');
+$can_read = utility::havePrivilege('bibliography', 'r');
+$can_write = utility::havePrivilege('bibliography', 'w');
 
 if (!$can_read) {
-    die('<div class="errorBox">'.__('You don\'t have enough privileges to access this area!').'</div>');
+    die('<div class="errorBox">'.__('You are not authorized to view this section').'</div>');
 }
 
 if (isset($_POST['doExport'])) {
@@ -43,7 +44,25 @@ if (isset($_POST['doExport'])) {
         exit();
     } else {
         // set PHP time limit
-        set_time_limit(3600);
+        set_time_limit(0);
+
+        // create local function to fetch values
+        function getValues($obj_db, $str_query)
+        {
+            // make query from database
+            $_value_q = $obj_db->query($str_query);
+            if ($_value_q->num_rows > 0) {
+                $_value_buffer = '';
+                while ($_value_d = $_value_q->fetch_row()) {
+                    if ($_value_d[0]) {
+                        $_value_buffer .= '<'.$_value_d[0].'>';
+                    }
+                }
+                return $_value_buffer;
+            }
+            return null;
+        }
+
         // limit
         $sep = trim($_POST['fieldSep']);
         $encloser = trim($_POST['fieldEnc']);
@@ -56,16 +75,20 @@ if (isset($_POST['doExport'])) {
         } else {
             $rec_sep = trim($_POST['recordSep']);
         }
-        // fetch all data from biblio table
+        // fetch all data from item table
         $sql = "SELECT
-            m.member_id, m.member_name, m.gender,
-            mt.member_type_name, m.member_email, m.member_address,
-            m.postal_code, m.inst_name, m.is_new,
-            m.member_image, m.pin, m.member_phone,
-            m.member_fax, m.member_since_date, m.register_date,
-            m.expire_date, m.member_notes
-            FROM member AS m
-            LEFT JOIN mst_member_type AS mt ON m.member_type_id=mt.member_type_id ";
+            i.item_code, i.call_number, ct.coll_type_name,
+            i.inventory_code, i.received_date, spl.supplier_name,
+            i.order_no, loc.location_name,
+            i.order_date, st.item_status_name, i.site,
+            i.source, i.invoice, i.price, i.price_currency, i.invoice_date,
+            i.input_date, i.last_update, b.title
+            FROM item AS i
+            LEFT JOIN biblio AS b ON i.biblio_id=b.biblio_id
+            LEFT JOIN mst_coll_type AS ct ON i.coll_type_id=ct.coll_type_id
+            LEFT JOIN mst_supplier AS spl ON i.supplier_id=spl.supplier_id
+            LEFT JOIN mst_item_status AS st ON i.item_status_id=st.item_status_id
+            LEFT JOIN mst_location AS loc ON i.location_id=loc.location_id ";
         if ($limit > 0) { $sql .= ' LIMIT '.$limit; }
         if ($offset > 1) {
             if ($limit > 0) {
@@ -78,44 +101,43 @@ if (isset($_POST['doExport'])) {
         // die($sql);
         $all_data_q = $dbs->query($sql);
         if ($dbs->error) {
-            utility::jsAlert(__('Error on query to database, Export FAILED!'));
+            utility::jsAlert(__('Error on query to database, Export FAILED!'.$dbs->error));
         } else {
             if ($all_data_q->num_rows > 0) {
                 header('Content-type: text/plain');
-                header('Content-Disposition: attachment; filename="senayan_member_export.csv"');
-                while ($member_data = $all_data_q->fetch_assoc()) {
+                header('Content-Disposition: attachment; filename="senayan_item_export.csv"');
+                while ($item_d = $all_data_q->fetch_row()) {
                     $buffer = null;
-                    foreach ($member_data as $fld_data) {
-                        $fld_data = $dbs->escape_string($fld_data);
+                    foreach ($item_d as $idx => $fld_d) {
+                        $fld_d = $dbs->escape_string($fld_d);
                         // data
-                        $buffer .=  $encloser.$fld_data.$encloser;
+                        $buffer .=  stripslashes($encloser.$fld_d.$encloser);
                         // field separator
                         $buffer .= $sep;
                     }
-                    // remove the last field separator
-                    $buffer = substr_replace($buffer, '', -1);
-                    echo $buffer;
+                    echo substr_replace($buffer, '', -1);
                     echo $rec_sep;
                 }
                 exit();
             } else {
-                utility::jsAlert(__('There is no record in membership database yet, Export FAILED!'));
+                utility::jsAlert(__('There is no record in item database yet, Export FAILED!'));
             }
         }
     }
     exit();
 }
-
 ?>
 <fieldset class="menuBox">
 <div class="menuBoxInner exportIcon">
-    <?php echo strtoupper(__('Export Data')).'<hr />'.__('Export member(s) data to CSV file'); ?>
+    <?php echo __('ITEM EXPORT TOOL'); ?>
+    <hr />
+    <?php echo __('Export item data to CSV file'); ?>
 </div>
 </fieldset>
 <?php
 
 // create new instance
-$form = new simbio_form_table_AJAX('mainForm', $_SERVER['PHP_SELF'].'', 'post');
+$form = new simbio_form_table_AJAX('mainForm', $_SERVER['PHP_SELF'], 'post');
 $form->submit_button_attr = 'name="doExport" value="'.__('Export Now').'" class="button"';
 
 // form table attributes
@@ -125,9 +147,9 @@ $form->table_content_attr = 'class="alterCell2"';
 
 /* Form Element(s) */
 // field separator
-$form->addTextField('text', 'fieldSep', __('Field Separator').'*', ''.htmlentities(',').'', 'style="width: 10%;"');
+$form->addTextField('text', 'fieldSep', __('Field Separator').'*', ''.htmlentities(',').'', 'style="width: 10%;" maxlength="3"');
 //  field enclosed
-$form->addTextField('text', 'fieldEnc', __('Field Enclosed With'), ''.htmlentities('"').'', 'style="width: 10%;"');
+$form->addTextField('text', 'fieldEnc', __('Field Enclosed With').'*', ''.htmlentities('"').'', 'style="width: 10%;"');
 // record separator
 $rec_sep_options[] = array('NEWLINE', 'NEWLINE');
 $rec_sep_options[] = array('RETURN', 'CARRIAGE RETURN');
