@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Senayan3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-26 18:20+0700\n"
-"PO-Revision-Date: 2010-02-26 18:20+0700\n"
+"POT-Creation-Date: 2010-02-27 23:48+0700\n"
+"PO-Revision-Date: 2010-02-27 23:49+0700\n"
 "Last-Translator: M. Rasyid Ridho <rasyidridho@gmail.com>\n"
 "Language-Team: M. Rasyid Ridho. Miranti Heras Tuwinda <rasyidridho@gmail.com, windaa_4588@rocketmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -133,11 +133,11 @@ msgstr "لقد تم تسجيل الخروج من نظام أتمتة المكت�
 
 #: admin/default/submenu.php:21
 msgid "Panel"
-msgstr ""
+msgstr "لوحة التحكم"
 
 #: admin/default/submenu.php:22
 msgid "Change User Profiles"
-msgstr ""
+msgstr "تغيير اسم الوضع"
 
 #: admin/default/submenu.php:22
 msgid "Change Current User Profiles and Password"
@@ -153,19 +153,19 @@ msgstr "اضافة بيانات ببليوجرافى جديدة"
 
 #: admin/default/submenu.php:27
 msgid "Start Transaction"
-msgstr ""
+msgstr "ابداع اﻹجراء"
 
 #: admin/default/submenu.php:27
 msgid "Start Circulation Transaction Proccess"
-msgstr ""
+msgstr "ابداع اجراء اﻹعارة "
 
 #: admin/default/submenu.php:30
 msgid "Quick Return"
-msgstr ""
+msgstr "ارجاع ميسرة"
 
 #: admin/default/submenu.php:30
 msgid "Quick Return Collection"
-msgstr ""
+msgstr "ارجاع الكتاب ميسرة"
 
 #: admin/default/submenu.php:33
 msgid "Add New Member"
@@ -210,7 +210,7 @@ msgstr "أنت غير مخول لعرض هذا القسم"
 
 #: admin/default/session_check.inc.php:56
 msgid "Your Login Session has already timeout!"
-msgstr ""
+msgstr "الدخول وسيتم تعدى الوقت"
 
 #: admin/modules/master_file/publisher.php:39
 #: admin/modules/master_file/publisher.php:131
@@ -361,7 +361,7 @@ msgstr "اسم الناشر"
 
 #: admin/modules/master_file/publisher.php:164
 msgid "You are going to edit publisher data"
-msgstr ""
+msgstr "ستعديل بيانات الناشر"
 
 #: admin/modules/master_file/publisher.php:164
 #: admin/modules/master_file/publisher.php:179
@@ -426,27 +426,27 @@ msgstr ""
 #: admin/modules/master_file/coll_type.php:39
 #: admin/modules/master_file/coll_type.php:151
 msgid "You don't have enough privileges to view this section"
-msgstr ""
+msgstr "لست اﻹمتياز لنظرهذا المقطع"
 
 #: admin/modules/master_file/index.php:51
 msgid "GMD Code And Name can't be empty"
-msgstr ""
+msgstr "ﻻ يمكن ترك المواد الأولية فارغة"
 
 #: admin/modules/master_file/index.php:70
 msgid "GMD Data Successfully Updated"
-msgstr ""
+msgstr "تم تحديث المواد الأولية"
 
 #: admin/modules/master_file/index.php:72
 msgid "GMD Data FAILED to Updated. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم تحديث المواد الأولية"
 
 #: admin/modules/master_file/index.php:78
 msgid "New GMD Data Successfully Saved"
-msgstr ""
+msgstr "تم حفظ المواد الأولية"
 
 #: admin/modules/master_file/index.php:80
 msgid "GMD Data FAILED to Save. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم حفظ المواد الأولية. رجاء الاتصال بنظام البيانات"
 
 #: admin/modules/master_file/index.php:121
 #: admin/modules/master_file/submenu.php:24
@@ -455,27 +455,27 @@ msgstr "المواد الأولية"
 
 #: admin/modules/master_file/index.php:121
 msgid "Add New GMD"
-msgstr ""
+msgstr "اضافة المواد الأولية"
 
 #: admin/modules/master_file/index.php:122
 msgid "GMD List"
-msgstr ""
+msgstr "قائمة المواد الأولية"
 
 #: admin/modules/master_file/index.php:164
 #: admin/modules/master_file/index.php:183
 #: admin/modules/master_file/index.php:187
 msgid "GMD Code"
-msgstr ""
+msgstr "كود المواد الأولية"
 
 #: admin/modules/master_file/index.php:166
 #: admin/modules/master_file/index.php:184
 #: admin/modules/master_file/index.php:188
 msgid "GMD Name"
-msgstr ""
+msgstr "اسم المواد الأولية"
 
 #: admin/modules/master_file/index.php:170
 msgid "You are going to edit gmd data"
-msgstr ""
+msgstr "ستعديل بيانات المواد الأولية"
 
 #: admin/modules/master_file/doc_language.php:47
 msgid "Language ID or Name can't be empty"
@@ -500,7 +500,7 @@ msgstr "لم يتم حفظ بيانات اللغة الجديدة. رجاء ا�
 #: admin/modules/master_file/doc_language.php:120
 #: admin/modules/master_file/submenu.php:34
 msgid "Doc. Language"
-msgstr ""
+msgstr "لغة توثيق"
 
 #: admin/modules/master_file/doc_language.php:120
 msgid "Add New Language"
@@ -525,7 +525,7 @@ msgstr "اللغة"
 
 #: admin/modules/master_file/doc_language.php:168
 msgid "You are going to edit language data"
-msgstr ""
+msgstr "ستعديل لغة توثيق"
 
 #: admin/modules/master_file/supplier.php:47
 msgid "Supplier Name can't be empty"
@@ -568,33 +568,33 @@ msgstr "اسم المورِّد"
 
 #: admin/modules/master_file/supplier.php:170
 msgid "Address"
-msgstr ""
+msgstr "عنوان"
 
 #: admin/modules/master_file/supplier.php:172
 #: admin/modules/master_file/supplier.php:196
 #: admin/modules/master_file/supplier.php:202
 msgid "Contact"
-msgstr ""
+msgstr "اتصال"
 
 #: admin/modules/master_file/supplier.php:174
 #: admin/modules/master_file/supplier.php:197
 #: admin/modules/master_file/supplier.php:203
 msgid "Phone Number"
-msgstr ""
+msgstr "رقم هاتف"
 
 #: admin/modules/master_file/supplier.php:176
 #: admin/modules/master_file/supplier.php:198
 #: admin/modules/master_file/supplier.php:204
 msgid "Fax Number"
-msgstr ""
+msgstr "رقم فاكس"
 
 #: admin/modules/master_file/supplier.php:178
 msgid "Account Number"
-msgstr ""
+msgstr "رقم الحساب"
 
 #: admin/modules/master_file/supplier.php:182
 msgid "You are going to edit Supplier data"
-msgstr ""
+msgstr "ستعديل بيانات المورِّد"
 
 #: admin/modules/master_file/topic.php:47
 msgid "Subject can't be empty"
@@ -636,7 +636,7 @@ msgstr "قائمة الموضوع"
 #: admin/modules/master_file/topic.php:190
 #: admin/modules/master_file/topic.php:195
 msgid "Subject Type"
-msgstr ""
+msgstr "تصنيف الموضوع"
 
 #: admin/modules/master_file/topic.php:170
 #: admin/modules/master_file/topic.php:191
@@ -646,23 +646,23 @@ msgstr ""
 #: admin/modules/master_file/author.php:190
 #: admin/modules/master_file/author.php:195
 msgid "Authority Files"
-msgstr ""
+msgstr "ملف إسناد الأسماء"
 
 #: admin/modules/master_file/topic.php:174
 msgid "You are going to edit Subject data"
-msgstr ""
+msgstr "ستعديل بيانات الموضوع"
 
 #: admin/modules/master_file/submenu.php:24
 msgid "General Material Designation"
-msgstr ""
+msgstr "المواد الأولية"
 
 #: admin/modules/master_file/submenu.php:25
 msgid "Document Publisher"
-msgstr ""
+msgstr "وثائق الناشر"
 
 #: admin/modules/master_file/submenu.php:26
 msgid "Item Supplier"
-msgstr ""
+msgstr "عنصر المورِّد"
 
 #: admin/modules/master_file/submenu.php:27
 #: admin/modules/master_file/author.php:119
@@ -671,7 +671,7 @@ msgstr "المؤلف"
 
 #: admin/modules/master_file/submenu.php:27
 msgid "Document Authors"
-msgstr ""
+msgstr "وثيق المؤلف"
 
 #: admin/modules/master_file/submenu.php:29
 #: admin/modules/master_file/location.php:141
@@ -680,11 +680,11 @@ msgstr "موقع"
 
 #: admin/modules/master_file/submenu.php:29
 msgid "Item Location"
-msgstr ""
+msgstr "عنصرالمكان"
 
 #: admin/modules/master_file/submenu.php:30
 msgid "Lookup Files"
-msgstr ""
+msgstr "بحث الملفات"
 
 #: admin/modules/master_file/submenu.php:31
 #: admin/modules/master_file/place.php:117
@@ -702,7 +702,7 @@ msgstr "اسم المكان"
 #: admin/modules/master_file/item_status.php:144
 #: admin/modules/master_file/item_status.php:145
 msgid "Item Status"
-msgstr ""
+msgstr "عنصرحالة"
 
 #: admin/modules/master_file/submenu.php:33
 #: admin/modules/master_file/coll_type.php:137
@@ -714,12 +714,12 @@ msgstr "نوع من كوكتيل"
 
 #: admin/modules/master_file/submenu.php:34
 msgid "Document Content Language"
-msgstr ""
+msgstr "توثيق لغة محتويات"
 
 #: admin/modules/master_file/submenu.php:35
 #: admin/modules/master_file/label.php:157
 msgid "Label"
-msgstr ""
+msgstr "رقعة الكتاب"
 
 #: admin/modules/master_file/submenu.php:35
 msgid "Special Labels for Titles to Show Up On Homepage"
@@ -772,7 +772,7 @@ msgstr "اسم المؤلف"
 #: admin/modules/master_file/author.php:189
 #: admin/modules/master_file/author.php:194
 msgid "Authority Type"
-msgstr ""
+msgstr "تصنيف إسناد الأسماء"
 
 #: admin/modules/master_file/author.php:173
 msgid "You are going to edit author data"
@@ -784,33 +784,33 @@ msgstr "الحقول المطلوبة (*) يجب ان يكون شغلها بشك
 
 #: admin/modules/master_file/frequency.php:67
 msgid "Frequency Data Successfully Updated"
-msgstr ""
+msgstr "تم تحديث عدد مرات الصدور"
 
 #: admin/modules/master_file/frequency.php:69
 msgid "Frequency Data FAILED to Updated. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم تحديث عدد مرات الصدور. رجاء الاتصال بنظام البيانات"
 
 #: admin/modules/master_file/frequency.php:75
 msgid "New Frequency Data Successfully Saved"
-msgstr ""
+msgstr "تم حفظ عدد مرات الصدور"
 
 #: admin/modules/master_file/frequency.php:77
 msgid "Frequency Data FAILED to Save. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم حفظ عدد مرات الصدورالجديد. رجاء الاتصال بنظام البيانات"
 
 #: admin/modules/master_file/frequency.php:118
 msgid "Add New Frequency"
-msgstr ""
+msgstr "اضاف عدد مرات الصدورالجديد"
 
 #: admin/modules/master_file/frequency.php:119
 msgid "Frequency Available"
-msgstr ""
+msgstr "متاح عدد مرات الصدورالجديد"
 
 #: admin/modules/master_file/frequency.php:171
 #: admin/modules/master_file/frequency.php:197
 #: admin/modules/master_file/frequency.php:203
 msgid "Time Increment"
-msgstr ""
+msgstr "ازدياد الوقت"
 
 #: admin/modules/master_file/frequency.php:173
 msgid "Day"
@@ -832,11 +832,11 @@ msgstr "سنة"
 #: admin/modules/master_file/frequency.php:198
 #: admin/modules/master_file/frequency.php:204
 msgid "Time Unit"
-msgstr ""
+msgstr "وحدةالوقت"
 
 #: admin/modules/master_file/frequency.php:181
 msgid "You are going to edit Frequency data"
-msgstr ""
+msgstr "ستعديل عدد مرات الصدور"
 
 #: admin/modules/master_file/place.php:47
 msgid "Place Name can't be empty"
@@ -868,37 +868,37 @@ msgstr "قائمة المكان"
 
 #: admin/modules/master_file/place.php:164
 msgid "You are going to edit place data"
-msgstr ""
+msgstr "ستعديل بيانات المكان"
 
 #: admin/modules/master_file/label.php:106
 msgid "Label Data Successfully Updated"
-msgstr ""
+msgstr "تم تحديث رقعة الكتاب"
 
 #: admin/modules/master_file/label.php:108
 msgid "Label Data FAILED to Updated. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم تحديث رقعة الكتاب. رجاء الاتصال بنظام البيانات"
 
 #: admin/modules/master_file/label.php:114
 msgid "New Label Data Successfully Saved"
-msgstr ""
+msgstr "تم حفظ رقعة الكتاب"
 
 #: admin/modules/master_file/label.php:116
 msgid "Label Data FAILED to Save. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم حفظ رقعة الكتاب. رجاء الاتصال بنظام البيانات"
 
 #: admin/modules/master_file/label.php:157
 msgid "Add New Label"
-msgstr ""
+msgstr "اضافة رقعة الكتاب"
 
 #: admin/modules/master_file/label.php:158
 msgid "Label List"
-msgstr ""
+msgstr "قائمة رقعة الكتاب"
 
 #: admin/modules/master_file/label.php:200
 #: admin/modules/master_file/label.php:231
 #: admin/modules/master_file/label.php:235
 msgid "Label Name"
-msgstr ""
+msgstr "اسم رقعة الكتاب"
 
 #: admin/modules/master_file/label.php:205
 #: admin/modules/master_file/label.php:210
@@ -909,55 +909,55 @@ msgstr "ملف مرفق"
 #: admin/modules/master_file/label.php:230
 #: admin/modules/master_file/label.php:234
 msgid "Label Description"
-msgstr ""
+msgstr "وصف رقعة الكتاب"
 
 #: admin/modules/master_file/label.php:217
 msgid "You are going to edit Label data"
-msgstr ""
+msgstr "ستعديل بيانات رقعة الكتاب"
 
 #: admin/modules/master_file/item_status.php:43
 msgid "No Loan Transaction"
-msgstr ""
+msgstr "يتعذر اجراءاﻹعارة"
 
 #: admin/modules/master_file/item_status.php:44
 msgid "Skipped By Stock Take"
-msgstr ""
+msgstr "تخطي بالجرد"
 
 #: admin/modules/master_file/item_status.php:52
 msgid "Item Status ID and Name can't be empty"
-msgstr ""
+msgstr "ﻻ يمكن ترك تعريف عنصرحالة و اسم الحالة فارغة"
 
 #: admin/modules/master_file/item_status.php:90
 msgid "Item Status Data Successfully Updated"
-msgstr ""
+msgstr "تم تحديث بيانات عنصرحالة"
 
 #: admin/modules/master_file/item_status.php:94
 msgid "Item Status Data FAILED to Updated. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم تحديث بيانات عنصرحالة. رجاء الاتصال بنظام البيانات"
 
 #: admin/modules/master_file/item_status.php:101
 msgid "New Item Status Data Successfully Saved"
-msgstr ""
+msgstr "تم حفظ بيانات عنصرحالة"
 
 #: admin/modules/master_file/item_status.php:103
 msgid "Item Status Data FAILED to Save. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم حفظ بيانات عنصرحالة. رجاء الاتصال بنظام البيانات"
 
 #: admin/modules/master_file/item_status.php:144
 msgid "Add New Item Status"
-msgstr ""
+msgstr "اضافة عنصرحالة جديدة"
 
 #: admin/modules/master_file/item_status.php:187
 #: admin/modules/master_file/item_status.php:215
 #: admin/modules/master_file/item_status.php:219
 msgid "Item Status Code"
-msgstr ""
+msgstr "كودعنصرحالة"
 
 #: admin/modules/master_file/item_status.php:189
 #: admin/modules/master_file/item_status.php:216
 #: admin/modules/master_file/item_status.php:220
 msgid "Item Status Name"
-msgstr ""
+msgstr "اسم عنصرحالة"
 
 #: admin/modules/master_file/item_status.php:198
 msgid "Rules"
@@ -965,7 +965,7 @@ msgstr "قاعدة"
 
 #: admin/modules/master_file/item_status.php:202
 msgid "You are going to edit Item Status data"
-msgstr ""
+msgstr "ستعديل عنصرحالة"
 
 #: admin/modules/master_file/location.php:48
 msgid "Location ID and Name can't be empty"
@@ -1019,40 +1019,40 @@ msgstr "اسم الموقع"
 
 #: admin/modules/master_file/location.php:190
 msgid "You are going to edit location data"
-msgstr ""
+msgstr "ستعديل بيانات المكان"
 
 #: admin/modules/master_file/coll_type.php:47
 msgid "Collection type name can't be empty"
-msgstr ""
+msgstr "ﻻ يمكن ترك اسم انواع المجموعة فارغة"
 
 #: admin/modules/master_file/coll_type.php:65
 msgid "Colllection Type Data Successfully Updated"
-msgstr ""
+msgstr "تمت تحديث انواع المجموعة"
 
 #: admin/modules/master_file/coll_type.php:67
 msgid "Colllection Type Data FAILED to Updated. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم تحديث انواع المجموعة. رجاء الاتصال بنظام البيانات"
 
 #: admin/modules/master_file/coll_type.php:74
 msgid "New Colllection Type Data Successfully Saved"
-msgstr ""
+msgstr "تمت حفظ انواع المجموعة"
 
 #: admin/modules/master_file/coll_type.php:137
 msgid "Add New Collection Type"
-msgstr ""
+msgstr "اضافة انواع المجموعة"
 
 #: admin/modules/master_file/coll_type.php:138
 msgid "Collection Type List"
-msgstr ""
+msgstr "قائمة انواع المجموعة"
 
 #: admin/modules/master_file/coll_type.php:183
 msgid "You are going to edit collection type data"
-msgstr ""
+msgstr "ستعديل بيانات انواع المجموعة"
 
 #: admin/modules/stock_take/st_log.php:48
 #: admin/modules/stock_take/submenu.php:32
 msgid "Stock Take Log"
-msgstr ""
+msgstr "سجل الجرد"
 
 #: admin/modules/stock_take/init.php:43
 msgid "There is already stock taking proccess running!"
@@ -1090,7 +1090,7 @@ msgstr ""
 #: admin/modules/stock_take/lost_item_list.php:78
 #: admin/modules/stock_take/lost_item_list.php:92
 msgid "ALL"
-msgstr ""
+msgstr "لكل"
 
 #: admin/modules/stock_take/init.php:174
 msgid "Shelf Location"
@@ -1244,7 +1244,7 @@ msgstr ""
 #: admin/modules/stock_take/index.php:47
 #: admin/modules/stock_take/submenu.php:23
 msgid "Stock Take"
-msgstr ""
+msgstr "جرد"
 
 #: admin/modules/stock_take/index.php:62
 msgid "Initializer"
@@ -1257,7 +1257,7 @@ msgstr ""
 #: admin/modules/stock_take/index.php:68
 #: admin/modules/stock_take/index.php:83
 msgid "Status"
-msgstr ""
+msgstr "حالة"
 
 #: admin/modules/stock_take/index.php:69
 #: admin/modules/stock_take/index.php:111
@@ -1645,7 +1645,7 @@ msgstr "تم ح"
 
 #: admin/modules/bibliography/index.php:196
 msgid "Bibliography Data FAILED to Save. Please Contact System Administrator"
-msgstr ""
+msgstr "لم يتم حفظ بيانات ببليوجرافى. رجاء الاتصال بنظام البيانات"
 
 #: admin/modules/bibliography/index.php:266
 #: admin/modules/bibliography/submenu.php:23
@@ -1746,11 +1746,11 @@ msgstr "إخفاء في كتالوج إلكتروني"
 
 #: admin/modules/bibliography/index.php:428
 msgid "Don't Promote"
-msgstr ""
+msgstr "ﻻ تعزز"
 
 #: admin/modules/bibliography/index.php:429
 msgid "Promote"
-msgstr ""
+msgstr "تعزز"
 
 #: admin/modules/bibliography/index.php:430
 msgid "Promote To Homepage"
@@ -1911,7 +1911,7 @@ msgstr "تاريج الفاطرة"
 
 #: admin/modules/bibliography/item.php:327
 msgid "Price"
-msgstr ""
+msgstr "سعر"
 
 #: admin/modules/bibliography/item.php:331
 msgid "You are going to edit Item data"
