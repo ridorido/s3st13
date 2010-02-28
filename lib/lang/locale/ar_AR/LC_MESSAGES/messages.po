@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Senayan3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-02-27 23:48+0700\n"
-"PO-Revision-Date: 2010-02-27 23:49+0700\n"
+"POT-Creation-Date: 2010-02-28 11:30+0700\n"
+"PO-Revision-Date: 2010-02-28 12:08+0700\n"
 "Last-Translator: M. Rasyid Ridho <rasyidridho@gmail.com>\n"
 "Language-Team: M. Rasyid Ridho. Miranti Heras Tuwinda <rasyidridho@gmail.com, windaa_4588@rocketmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -226,8 +226,6 @@ msgstr "الدخول وسيتم تعدى الوقت"
 #: admin/modules/master_file/place.php:131
 #: admin/modules/master_file/item_status.php:39
 #: admin/modules/master_file/item_status.php:158
-#: admin/modules/master_file/location.php:39
-#: admin/modules/master_file/location.php:155
 msgid "You don't have enough privileges to access this area!"
 msgstr ""
 
@@ -261,8 +259,6 @@ msgstr "لم يتم تحفظ بيانات الناشر. رجاء اﻻتصال �
 #: admin/modules/master_file/place.php:103
 #: admin/modules/master_file/label.php:143
 #: admin/modules/master_file/item_status.php:130
-#: admin/modules/master_file/location.php:127
-#: admin/modules/master_file/coll_type.php:123
 msgid "All Data Successfully Deleted"
 msgstr "تم مسح كل البيانات"
 
@@ -276,8 +272,6 @@ msgstr "تم مسح كل البيانات"
 #: admin/modules/master_file/place.php:106
 #: admin/modules/master_file/label.php:146
 #: admin/modules/master_file/item_status.php:133
-#: admin/modules/master_file/location.php:130
-#: admin/modules/master_file/coll_type.php:126
 msgid ""
 "Some or All Data NOT deleted successfully!\\n"
 "Please contact system administrator"
@@ -316,10 +310,6 @@ msgstr "الناشر التفسيلى"
 #: admin/modules/master_file/label.php:162
 #: admin/modules/master_file/item_status.php:147
 #: admin/modules/master_file/item_status.php:149
-#: admin/modules/master_file/location.php:144
-#: admin/modules/master_file/location.php:146
-#: admin/modules/master_file/coll_type.php:140
-#: admin/modules/master_file/coll_type.php:142
 msgid "Search"
 msgstr "بحث"
 
@@ -333,8 +323,6 @@ msgstr "بحث"
 #: admin/modules/master_file/place.php:140
 #: admin/modules/master_file/label.php:180
 #: admin/modules/master_file/item_status.php:167
-#: admin/modules/master_file/location.php:164
-#: admin/modules/master_file/coll_type.php:159
 msgid "Save"
 msgstr "حفظ"
 
@@ -348,8 +336,6 @@ msgstr "حفظ"
 #: admin/modules/master_file/place.php:155
 #: admin/modules/master_file/label.php:195
 #: admin/modules/master_file/item_status.php:182
-#: admin/modules/master_file/location.php:179
-#: admin/modules/master_file/coll_type.php:174
 msgid "Update"
 msgstr "التحديث"
 
@@ -393,12 +379,6 @@ msgstr "ستعديل بيانات الناشر"
 #: admin/modules/master_file/item_status.php:202
 #: admin/modules/master_file/item_status.php:217
 #: admin/modules/master_file/item_status.php:221
-#: admin/modules/master_file/location.php:190
-#: admin/modules/master_file/location.php:205
-#: admin/modules/master_file/location.php:209
-#: admin/modules/master_file/coll_type.php:183
-#: admin/modules/master_file/coll_type.php:195
-#: admin/modules/master_file/coll_type.php:197
 msgid "Last Update"
 msgstr "آخر تحديث"
 
@@ -412,8 +392,6 @@ msgstr "آخر تحديث"
 #: admin/modules/master_file/place.php:200
 #: admin/modules/master_file/label.php:257
 #: admin/modules/master_file/item_status.php:245
-#: admin/modules/master_file/location.php:228
-#: admin/modules/master_file/coll_type.php:221
 msgid "Found <strong>{result->num_rows}</strong> from your keywords"
 msgstr ""
 
@@ -423,8 +401,6 @@ msgstr ""
 #: admin/modules/master_file/frequency.php:132
 #: admin/modules/master_file/label.php:40
 #: admin/modules/master_file/label.php:171
-#: admin/modules/master_file/coll_type.php:39
-#: admin/modules/master_file/coll_type.php:151
 msgid "You don't have enough privileges to view this section"
 msgstr "لست اﻹمتياز لنظرهذا المقطع"
 
@@ -674,7 +650,6 @@ msgid "Document Authors"
 msgstr "وثيق المؤلف"
 
 #: admin/modules/master_file/submenu.php:29
-#: admin/modules/master_file/location.php:141
 msgid "Location"
 msgstr "موقع"
 
@@ -705,10 +680,6 @@ msgid "Item Status"
 msgstr "عنصرحالة"
 
 #: admin/modules/master_file/submenu.php:33
-#: admin/modules/master_file/coll_type.php:137
-#: admin/modules/master_file/coll_type.php:179
-#: admin/modules/master_file/coll_type.php:195
-#: admin/modules/master_file/coll_type.php:197
 msgid "Collection Type"
 msgstr "نوع من كوكتيل"
 
@@ -750,7 +721,6 @@ msgid "New Author Data Successfully Saved"
 msgstr "تم حفظ بيانات مؤلف"
 
 #: admin/modules/master_file/author.php:78
-#: admin/modules/master_file/coll_type.php:76
 msgid "Author Data FAILED to Save. Please Contact System Administrator"
 msgstr "لم يتم حفظ بيانات مؤلف. رجاء اﻻتصال بنظام البيانات"
 
@@ -1060,21 +1030,21 @@ msgstr ""
 
 #: admin/modules/stock_take/init.php:47
 msgid "Stock Take Name must be filled!"
-msgstr ""
+msgstr "يلزم تدخل اسم الجرد"
 
 #: admin/modules/stock_take/init.php:126
 msgid "Stock Taking Initialized"
-msgstr ""
+msgstr "تم شغل الجرد"
 
 #: admin/modules/stock_take/init.php:131
 msgid ""
 "Stock Taking FAILED to Initialized.\\n"
 "No item to stock take!"
-msgstr ""
+msgstr "لم يتم شغل الجرد"
 
 #: admin/modules/stock_take/init.php:139
 msgid "Initialize Stock Take"
-msgstr ""
+msgstr "شغل الجرد"
 
 #: admin/modules/stock_take/init.php:148
 #: admin/modules/stock_take/st_report.php:68
@@ -1082,7 +1052,7 @@ msgstr ""
 #: admin/modules/stock_take/index.php:76
 #: admin/modules/stock_take/index.php:108
 msgid "Stock Take Name"
-msgstr ""
+msgstr "اسم الجرد"
 
 #: admin/modules/stock_take/init.php:152
 #: admin/modules/stock_take/init.php:160
@@ -1120,19 +1090,19 @@ msgstr ""
 
 #: admin/modules/stock_take/st_report.php:58
 msgid "Download Report"
-msgstr ""
+msgstr "تقريراﻹنزال"
 
 #: admin/modules/stock_take/st_report.php:69
 #: admin/modules/stock_take/index.php:63
 msgid "Total Item Stock Taked"
-msgstr ""
+msgstr "مجموع بيانات الجرد"
 
 #: admin/modules/stock_take/st_report.php:71
 #: admin/modules/stock_take/st_report.php:72
 #: admin/modules/stock_take/st_report.php:73
 #: admin/modules/stock_take/index.php:64
 msgid "Total Item Lost"
-msgstr ""
+msgstr "مجموع بيانات المفقود"
 
 #: admin/modules/stock_take/st_report.php:73
 #: admin/modules/stock_take/st_report.php:77
@@ -1143,53 +1113,53 @@ msgstr "لا يوجد"
 #: admin/modules/stock_take/st_report.php:79
 #: admin/modules/stock_take/index.php:66
 msgid "Total Item On Loan"
-msgstr ""
+msgstr "مجموع بيانات المعار"
 
 #: admin/modules/stock_take/st_report.php:85
 msgid "Total Checked/Scanned Items"
-msgstr ""
+msgstr "العرض المفحوص"
 
 #: admin/modules/stock_take/st_report.php:87
 #: admin/modules/stock_take/st_report.php:92
 #: admin/modules/stock_take/st_report.php:97
 #: admin/modules/stock_take/index.php:67
 msgid "Stock Take Participants"
-msgstr ""
+msgstr "الجرد المشاركون"
 
 #: admin/modules/stock_take/st_report.php:92
 msgid "items already checked"
-msgstr ""
+msgstr "تم حفص عناصر"
 
 #: admin/modules/stock_take/st_report.php:99
 #: admin/modules/stock_take/index.php:60
 #: admin/modules/stock_take/index.php:109
 msgid "Start Date"
-msgstr ""
+msgstr "تاريخ البداية"
 
 #: admin/modules/stock_take/st_report.php:101
 #: admin/modules/stock_take/index.php:61
 #: admin/modules/stock_take/index.php:110
 msgid "End Date"
-msgstr ""
+msgstr "تاريخ النهاية"
 
 #: admin/modules/stock_take/st_report.php:122
 #: admin/modules/stock_take/st_report.php:160
 msgid "Lost Items"
-msgstr ""
+msgstr "عناصرالمفقود"
 
 #: admin/modules/stock_take/st_report.php:123
 #: admin/modules/stock_take/st_report.php:161
 msgid "Existing Items"
-msgstr ""
+msgstr "عنلصر الموجودة"
 
 #: admin/modules/stock_take/st_report.php:124
 #: admin/modules/stock_take/st_report.php:162
 msgid "On Loan Items"
-msgstr ""
+msgstr "عناصر المعار"
 
 #: admin/modules/stock_take/st_report.php:127
 msgid " classes"
-msgstr ""
+msgstr "اﻻقسام"
 
 #: admin/modules/stock_take/current.php:61
 msgid "STOCK TAKE PROCCESS - Insert Item Code/Barcode with keyboard or barcode scanner"
@@ -1204,7 +1174,7 @@ msgstr "رمزالعناصر"
 
 #: admin/modules/stock_take/current.php:63
 msgid "Change Status"
-msgstr ""
+msgstr "تغييرالحالة"
 
 #: admin/modules/stock_take/current.php:64
 msgid "List stocktakes by"
@@ -1212,7 +1182,7 @@ msgstr ""
 
 #: admin/modules/stock_take/current.php:65
 msgid "Current User Only"
-msgstr ""
+msgstr "مستخدم الحالية فقط"
 
 #: admin/modules/stock_take/current.php:66
 msgid "All User"
@@ -1224,14 +1194,12 @@ msgstr ""
 
 #: admin/modules/stock_take/current.php:91
 #: admin/modules/stock_take/lost_item_list.php:120
-#: admin/modules/bibliography/pop_attach.php:185
-#: admin/modules/bibliography/dl_print.php:200
 msgid "Title"
 msgstr "عنوان كتاب"
 
 #: admin/modules/stock_take/current.php:94
 msgid "Exists"
-msgstr ""
+msgstr "موجود"
 
 #: admin/modules/stock_take/current.php:94
 msgid "On Loan"
@@ -1239,7 +1207,7 @@ msgstr "معار"
 
 #: admin/modules/stock_take/current.php:94
 msgid "Missing"
-msgstr ""
+msgstr "مفقود"
 
 #: admin/modules/stock_take/index.php:47
 #: admin/modules/stock_take/submenu.php:23
@@ -1252,7 +1220,7 @@ msgstr ""
 
 #: admin/modules/stock_take/index.php:65
 msgid "Total Item Exists"
-msgstr ""
+msgstr "عنصر الموجود الكليا"
 
 #: admin/modules/stock_take/index.php:68
 #: admin/modules/stock_take/index.php:83
@@ -1262,11 +1230,11 @@ msgstr "حالة"
 #: admin/modules/stock_take/index.php:69
 #: admin/modules/stock_take/index.php:111
 msgid "Report"
-msgstr ""
+msgstr "تقرير"
 
 #: admin/modules/stock_take/index.php:85
 msgid "Currently Active"
-msgstr ""
+msgstr "نشط حاليا"
 
 #: admin/modules/stock_take/finish.php:43
 msgid "NO stock taking proccess running!"
@@ -1274,13 +1242,13 @@ msgstr ""
 
 #: admin/modules/stock_take/finish.php:144
 msgid "Stock Take Proccess Finished!"
-msgstr ""
+msgstr "تم يتعذّر تغيير هذه الخانة الجرد"
 
 #: admin/modules/stock_take/finish.php:153
 #: admin/modules/stock_take/finish.php:161
 #: admin/modules/stock_take/submenu.php:30
 msgid "Finish Stock Take"
-msgstr ""
+msgstr "يتعذّر تغيير هذه الخانة الجرد"
 
 #: admin/modules/stock_take/finish.php:154
 msgid "Are you sure to end current stock take proccess? Once it finished there is no way you can rollback this stock take"
@@ -1292,15 +1260,15 @@ msgstr "نعم"
 
 #: admin/modules/stock_take/finish.php:171
 msgid "Purge Lost Item"
-msgstr ""
+msgstr "عناصرالمفقود نهاية الصلاحية"
 
 #: admin/modules/stock_take/st_upload.php:83
 msgid "Succesfully upload stock take file"
-msgstr ""
+msgstr "تم ارسال ملف الجرد"
 
 #: admin/modules/stock_take/st_upload.php:83
 msgid " item codes scanned!"
-msgstr ""
+msgstr "تمت كود مقروء ضوئيا"
 
 #: admin/modules/stock_take/st_upload.php:101
 msgid "STOCK TAKE UPLOAD - Upload a plain text file (.txt) containing list of Item Code to stock take. Each Item Code separated by line."
@@ -1312,19 +1280,19 @@ msgstr "ملف"
 
 #: admin/modules/stock_take/st_upload.php:104
 msgid "Upload File"
-msgstr ""
+msgstr "ارسال ملف"
 
 #: admin/modules/stock_take/submenu.php:24
 msgid "Stock Take History"
-msgstr ""
+msgstr "التاريخ الجرد"
 
 #: admin/modules/stock_take/submenu.php:24
 msgid "View Stock Take History"
-msgstr ""
+msgstr "عرض التاريخ الجرد"
 
 #: admin/modules/stock_take/submenu.php:28
 msgid "Current Stock Take"
-msgstr ""
+msgstr "جرد حاليا"
 
 #: admin/modules/stock_take/submenu.php:28
 msgid "View Current Stock Take Process"
@@ -1332,52 +1300,52 @@ msgstr ""
 
 #: admin/modules/stock_take/submenu.php:29
 msgid "Stock Take Report"
-msgstr ""
+msgstr "تقرير الجرد"
 
 #: admin/modules/stock_take/submenu.php:29
 msgid "View Current Stock Take Report"
-msgstr ""
+msgstr "عرض تقرير الجرد الحالي"
 
 #: admin/modules/stock_take/submenu.php:30
 msgid "Finish Current Stock Take Proccess"
-msgstr ""
+msgstr "يتعذّر تغييرالعملية هذه الخانة الجرد"
 
 #: admin/modules/stock_take/submenu.php:31
 #: admin/modules/stock_take/lost_item_list.php:45
 msgid "Current Lost Item"
-msgstr ""
+msgstr "عناصر المفقود الحالي"
 
 #: admin/modules/stock_take/submenu.php:31
 msgid "View Lost Item in Current Stock Take Proccess"
-msgstr ""
+msgstr "عرض المفقود الحالي فى عملية الجرد"
 
 #: admin/modules/stock_take/submenu.php:32
 msgid "View Log of Current Stock Take Proccess"
-msgstr ""
+msgstr "عرض سجلعملية الجرد"
 
 #: admin/modules/stock_take/submenu.php:33
 msgid "Resynchronize"
-msgstr ""
+msgstr "أعاد المزامنة"
 
 #: admin/modules/stock_take/submenu.php:33
 msgid "Resynchronize bibliographic data with current stock take"
-msgstr ""
+msgstr "أعاد المزامنة بيانات ببليوجرافى بعملية الجرد"
 
 #: admin/modules/stock_take/submenu.php:34
 msgid "Upload List"
-msgstr ""
+msgstr "قائمة اﻻرسال"
 
 #: admin/modules/stock_take/submenu.php:34
 msgid "Upload List in text file"
-msgstr ""
+msgstr "قائمة اﻻرسال فى نص الملف"
 
 #: admin/modules/stock_take/submenu.php:36
 msgid "Initialize"
-msgstr ""
+msgstr "شغّل"
 
 #: admin/modules/stock_take/submenu.php:36
 msgid "Initialize New Stock Take Proccess"
-msgstr ""
+msgstr "شغّل الجرد الجديد"
 
 #: admin/modules/stock_take/resync.php:58
 msgid "Re-synchronize will only update current stock take's item data. It won't update any new bibliographic or item data that were inserted in the middle of stock take proccess"
@@ -1385,11 +1353,11 @@ msgstr ""
 
 #: admin/modules/stock_take/resync.php:61
 msgid "Resynchronize Now"
-msgstr ""
+msgstr "أعاد المزامنة اﻵن"
 
 #: admin/modules/stock_take/lost_item_list.php:45
 msgid "Report Filter"
-msgstr ""
+msgstr "تقرير الترشيح"
 
 #: admin/modules/stock_take/lost_item_list.php:49
 msgid "Title/ISBN"
@@ -1397,18 +1365,17 @@ msgstr "عنوان / رقم الكتاب"
 
 #: admin/modules/stock_take/lost_item_list.php:101
 msgid "Apply Filter"
-msgstr ""
+msgstr "تطبيق الترشيح"
 
 #: admin/modules/stock_take/lost_item_list.php:102
 msgid "Show More Filter Options"
-msgstr ""
+msgstr "عرض اختيار ترشيح الميزاد"
 
 #: admin/modules/stock_take/lost_item_list.php:102
 msgid "Hide Filter Options"
-msgstr ""
+msgstr "اخفاء اختيار ترشيح"
 
 #: admin/modules/stock_take/lost_item_list.php:123
-#: admin/modules/bibliography/dl_print.php:201
 msgid "Call Number"
 msgstr "رقم التصنيف"
 
@@ -1462,7 +1429,7 @@ msgstr "عدد السجلات لتصدي ( 0 لكل حقل) "
 
 #: admin/modules/bibliography/export.php:177
 msgid "Start From Record"
-msgstr ""
+msgstr "ابداء من تسجيلة"
 
 #: admin/modules/bibliography/z3950.php:335
 msgid "ISBN/ISSN"
@@ -1503,7 +1470,7 @@ msgstr ""
 
 #: admin/modules/bibliography/pop_attach.php:164
 msgid "Upload Now"
-msgstr ""
+msgstr "ارسال اﻵن"
 
 #: admin/modules/bibliography/pop_attach.php:194
 msgid "Repository ROOT"
@@ -1519,46 +1486,52 @@ msgstr ""
 
 #: admin/modules/bibliography/pop_attach.php:211
 msgid "URL"
-msgstr ""
+msgstr "موقع"
 
 #: admin/modules/bibliography/pop_attach.php:213
 msgid "Description"
-msgstr ""
+msgstr "وصف"
 
 #: admin/modules/bibliography/pop_attach.php:215
 msgid "Public"
-msgstr ""
+msgstr "الجمهور"
 
 #: admin/modules/bibliography/pop_attach.php:216
 msgid "Private"
-msgstr ""
+msgstr "خاصّ"
 
 #: admin/modules/bibliography/pop_attach.php:217
 msgid "Access"
-msgstr ""
+msgstr "الوصل"
 
 #: admin/modules/bibliography/pop_attach.php:224
 msgid "Access Limit by Member Type"
 msgstr ""
 
 #: admin/modules/bibliography/dl_print.php:70
+#: admin/modules/bibliography/item_barcode_generator.php:88
 msgid "Selected items NOT ADDED to print queue. Only {max_print} can be printed at once"
 msgstr ""
 
 #: admin/modules/bibliography/dl_print.php:75
+#: admin/modules/bibliography/item_barcode_generator.php:93
 msgid "Selected items added to print queue"
 msgstr ""
 
 #: admin/modules/bibliography/dl_print.php:82
+#: admin/modules/bibliography/item_barcode_generator.php:102
 msgid "Print queue cleared!"
 msgstr "تم مسح طابورالطباعة"
 
 #: admin/modules/bibliography/dl_print.php:92
 #: admin/modules/bibliography/dl_print.php:96
+#: admin/modules/bibliography/item_barcode_generator.php:111
+#: admin/modules/bibliography/item_barcode_generator.php:115
 msgid "There is no data to print!"
 msgstr "ﻻ توجد بيانات فالطباعة"
 
 #: admin/modules/bibliography/dl_print.php:172
+#: admin/modules/bibliography/submenu.php:31
 msgid "Labels Printing"
 msgstr "طباعة رقعة الكتاب "
 
@@ -1567,38 +1540,51 @@ msgid "Print Labels for Selected Data"
 msgstr ""
 
 #: admin/modules/bibliography/dl_print.php:173
+#: admin/modules/bibliography/item_barcode_generator.php:198
 msgid "Clear Print Queue"
 msgstr "مسح طابور الطباعة"
 
 #: admin/modules/bibliography/dl_print.php:181
+#: admin/modules/bibliography/item_barcode_generator.php:206
 msgid "Maximum"
 msgstr ""
 
 #: admin/modules/bibliography/dl_print.php:181
+#: admin/modules/bibliography/item_barcode_generator.php:206
 msgid "records can be printed at once. Currently there is"
 msgstr ""
 
 #: admin/modules/bibliography/dl_print.php:185
+#: admin/modules/bibliography/item_barcode_generator.php:210
 msgid "in queue waiting to be printed."
 msgstr ""
 
 #: admin/modules/bibliography/dl_print.php:228
+#: admin/modules/bibliography/item_barcode_generator.php:252
 msgid "Add"
 msgstr "اضافة"
 
 #: admin/modules/bibliography/dl_print.php:229
+#: admin/modules/bibliography/item_barcode_generator.php:253
 msgid "Add To Print Queue"
 msgstr "اضافة فى الطابورالطباعة"
 
 #: admin/modules/bibliography/dl_print.php:230
+#: admin/modules/bibliography/item_barcode_generator.php:254
 msgid "Add to print queue?"
 msgstr "هل تؤكد بإضافة فى الطابورالطباعة؟"
 
 #: admin/modules/bibliography/dl_print.php:238
+#: admin/modules/bibliography/index.php:559
+#: admin/modules/bibliography/item.php:421
+#: admin/modules/bibliography/item_barcode_generator.php:262
 msgid "Query took"
 msgstr ""
 
 #: admin/modules/bibliography/dl_print.php:238
+#: admin/modules/bibliography/index.php:559
+#: admin/modules/bibliography/item.php:421
+#: admin/modules/bibliography/item_barcode_generator.php:262
 msgid "second(s) to complete"
 msgstr ""
 
@@ -1612,13 +1598,10 @@ msgid "Member ID"
 msgstr "تعريف الأعضاء"
 
 #: admin/modules/bibliography/checkout_item.php:64
-#: admin/modules/circulation/loan.php:129
-#: admin/modules/circulation/member_loan_hist.php:54
 msgid "Loan Date"
 msgstr "تاريخ الإعارة"
 
 #: admin/modules/bibliography/checkout_item.php:65
-#: admin/modules/circulation/loan.php:129
 msgid "Due Date"
 msgstr "تاريخ انتهاء الإعارة"
 
@@ -1918,10 +1901,12 @@ msgid "You are going to edit Item data"
 msgstr ""
 
 #: admin/modules/bibliography/import.php:45
+#: admin/modules/bibliography/item_import.php:45
 msgid "Please select the file to import!"
 msgstr "اختار الملف للاستيراد"
 
 #: admin/modules/bibliography/import.php:69
+#: admin/modules/bibliography/item_import.php:69
 msgid "Upload failed! File type not allowed or the size is more than"
 msgstr "فشل إيداع! نوع الملف غير مسموح به أو حجم هو أكثر من"
 
@@ -1934,14 +1919,16 @@ msgid "Import for bibliographics data from CSV file. For guide on CVS fields ord
 msgstr "استيراد البيانات الببليوغرافية من ملف CSV. لدليل على CSV حقول النظام وتنسيق يرجى الرجوع إلى وثائق أو زيارة <a href=\"http://senayan.diknas.go.id\" target=\"_blank\">Official Website</a>"
 
 #: admin/modules/bibliography/import.php:225
+#: admin/modules/bibliography/item_import.php:180
 msgid "Import Now"
 msgstr "استيراد الآن!"
 
 #: admin/modules/bibliography/import.php:236
+#: admin/modules/bibliography/item_import.php:190
 msgid "File To Import"
 msgstr "ملف للاستيراد"
 
-#: admin/modules/bibliography/iframe_attach.php:69
+#: admin/modules/bibliography/iframe_attach.php:67
 msgid "Attachment removed!"
 msgstr ""
 
@@ -1955,6 +1942,15 @@ msgstr ""
 
 #: admin/modules/bibliography/item_barcode_generator.php:197
 msgid "Print Barcodes for Selected Data"
+msgstr ""
+
+#: admin/modules/bibliography/item_import.php:171
+#, fuzzy
+msgid "ITEM IMPORT TOOL"
+msgstr "أداة استيراد"
+
+#: admin/modules/bibliography/item_import.php:173
+msgid "Import for item data from CSV file"
 msgstr ""
 
 #: admin/modules/bibliography/pop_author.php:88
@@ -2002,15 +1998,30 @@ msgstr "الكلمات الأساسية"
 msgid "Type to search for existing topics or to add a new one"
 msgstr ""
 
+#: admin/modules/bibliography/item_export.php:123
+msgid "There is no record in item database yet, Export FAILED!"
+msgstr ""
+
+#: admin/modules/bibliography/item_export.php:132
+#, fuzzy
+msgid "ITEM EXPORT TOOL"
+msgstr "ادؤاات التصدير"
+
+#: admin/modules/bibliography/item_export.php:134
+msgid "Export item data to CSV file"
+msgstr ""
+
 #: admin/modules/circulation/loan.php:113
 msgid "Insert Item Code/Barcode"
 msgstr ""
 
 #: admin/modules/circulation/loan.php:115
+#: admin/modules/circulation/pop_loan_receipt.php:71
 msgid "Loan"
 msgstr "اعارة"
 
 #: admin/modules/circulation/loan.php:129
+#: admin/modules/circulation/reserve_list.php:87
 msgid "Remove"
 msgstr ""
 
@@ -2039,6 +2050,7 @@ msgid "Loan Rules FAILED to Save. Please Contact System Administrator"
 msgstr ""
 
 #: admin/modules/circulation/loan_rules.php:117
+#: admin/modules/circulation/submenu.php:26
 msgid "Loan Rules"
 msgstr "قواعد الإعارة"
 
@@ -2053,6 +2065,7 @@ msgstr ""
 #: admin/modules/circulation/loan_rules.php:168
 #: admin/modules/circulation/loan_rules.php:215
 #: admin/modules/circulation/loan_rules.php:222
+#: admin/modules/circulation/circulation_action.php:454
 msgid "Member Type"
 msgstr "أنواع الأعضاء"
 
@@ -2187,7 +2200,7 @@ msgid "View and Modify Circulation Loan Rules"
 msgstr ""
 
 #: admin/modules/circulation/submenu.php:27
-#: admin/modules/circulation/circulation_action.php:483
+#: admin/modules/circulation/circulation_action.php:486
 msgid "Loan History"
 msgstr ""
 
@@ -2246,7 +2259,7 @@ msgid "days(s) with fines value"
 msgstr ""
 
 #: admin/modules/circulation/loan_list.php:149
-#: admin/modules/circulation/circulation_action.php:254
+#: admin/modules/circulation/circulation_action.php:257
 msgid "Item {itemCode} is being reserved by member {member}"
 msgstr ""
 
@@ -2258,147 +2271,147 @@ msgstr ""
 msgid "Transaction finished"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:77
-#: admin/modules/circulation/circulation_action.php:99
+#: admin/modules/circulation/circulation_action.php:80
+#: admin/modules/circulation/circulation_action.php:102
 msgid "Overdue fines inserted to fines database"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:90
+#: admin/modules/circulation/circulation_action.php:93
 msgid "Item CANNOT BE Extended! This Item is being reserved by other member"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:97
+#: admin/modules/circulation/circulation_action.php:100
 msgid "Loan Extended"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:125
-#: admin/modules/circulation/circulation_action.php:132
+#: admin/modules/circulation/circulation_action.php:128
+#: admin/modules/circulation/circulation_action.php:135
 msgid "Loan Limit Reached!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:125
-#: admin/modules/circulation/circulation_action.php:146
+#: admin/modules/circulation/circulation_action.php:128
+#: admin/modules/circulation/circulation_action.php:149
 msgid "Do You Want To Overide This?"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:146
+#: admin/modules/circulation/circulation_action.php:149
 msgid "WARNING! This Item is reserved by another member"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:156
+#: admin/modules/circulation/circulation_action.php:159
 msgid "This Item is not registered in database"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:161
+#: admin/modules/circulation/circulation_action.php:164
 msgid "This Item is currently not available"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:166
+#: admin/modules/circulation/circulation_action.php:169
 msgid "Loan NOT PERMITTED! Membership already EXPIRED!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:171
+#: admin/modules/circulation/circulation_action.php:174
 msgid "Loan NOT PERMITTED! Membership under PENDING State!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:176
+#: admin/modules/circulation/circulation_action.php:179
 msgid "Loan Forbidden for this Item!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:213
+#: admin/modules/circulation/circulation_action.php:216
 msgid "Item {removeID} removed from session"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:230
+#: admin/modules/circulation/circulation_action.php:233
 msgid "This is item already returned or not exists in loan database"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:241
+#: admin/modules/circulation/circulation_action.php:244
 msgid "OVERDUED for {overdueDays} days(s) with fines value of"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:265
+#: admin/modules/circulation/circulation_action.php:268
 msgid " successfully returned on"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:267
-#: admin/modules/circulation/circulation_action.php:438
+#: admin/modules/circulation/circulation_action.php:270
+#: admin/modules/circulation/circulation_action.php:441
 msgid "Member Name"
 msgstr "اسم الأعضاء"
 
-#: admin/modules/circulation/circulation_action.php:293
+#: admin/modules/circulation/circulation_action.php:296
 msgid "NO DATA Selected to reserve!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:306
+#: admin/modules/circulation/circulation_action.php:309
 msgid "Can not add more reservation. Maximum limit reached"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:324
+#: admin/modules/circulation/circulation_action.php:327
 msgid "Can't reserve this Item. Loan Forbidden!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:342
+#: admin/modules/circulation/circulation_action.php:345
 msgid "Reservation added"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:347
+#: admin/modules/circulation/circulation_action.php:350
 msgid "Item for this title is already available or already on hold by this member!"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:366
+#: admin/modules/circulation/circulation_action.php:369
 msgid "Reservation removed"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:381
+#: admin/modules/circulation/circulation_action.php:384
 msgid "Fines data removed"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:405
+#: admin/modules/circulation/circulation_action.php:408
 msgid " not valid (unregistered in database)"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:434
+#: admin/modules/circulation/circulation_action.php:437
 msgid "Finish Transaction"
-msgstr ""
+msgstr "يتعذّر تغيير هذه الخانة اﻹجرائية"
 
-#: admin/modules/circulation/circulation_action.php:434
+#: admin/modules/circulation/circulation_action.php:437
 msgid "Are you sure want to finish current transaction?"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:450
+#: admin/modules/circulation/circulation_action.php:453
 msgid "Member Email"
 msgstr "عنوان البريد الإلكتروني"
 
-#: admin/modules/circulation/circulation_action.php:454
+#: admin/modules/circulation/circulation_action.php:457
 msgid "Register Date"
 msgstr "تاريخ التسجيل"
 
-#: admin/modules/circulation/circulation_action.php:458
+#: admin/modules/circulation/circulation_action.php:461
 msgid "Membership Already Expired"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:460
+#: admin/modules/circulation/circulation_action.php:463
 msgid "Expiry Date"
 msgstr "تاريخ الانتهاء"
 
-#: admin/modules/circulation/circulation_action.php:470
+#: admin/modules/circulation/circulation_action.php:473
 msgid "Membership currently in pending state, loan transaction is locked."
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:477
+#: admin/modules/circulation/circulation_action.php:480
 msgid "Loans"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:478
+#: admin/modules/circulation/circulation_action.php:481
 msgid "Current Loans"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:480
+#: admin/modules/circulation/circulation_action.php:483
 msgid "Reserve"
 msgstr ""
 
-#: admin/modules/circulation/circulation_action.php:482
+#: admin/modules/circulation/circulation_action.php:485
 msgid "Fines"
 msgstr ""
 
@@ -2427,6 +2440,7 @@ msgid "System Log data completely cleared!"
 msgstr ""
 
 #: admin/modules/system/sys_log.php:68
+#: admin/modules/system/submenu.php:37
 msgid "System Log"
 msgstr ""
 
@@ -2469,6 +2483,7 @@ msgid "Write"
 msgstr ""
 
 #: admin/modules/system/backup.php:41
+#: admin/modules/system/submenu.php:38
 msgid "Database Backup"
 msgstr ""
 
@@ -2497,6 +2512,7 @@ msgid "Module Data FAILED to Save. Please Contact System Administrator"
 msgstr ""
 
 #: admin/modules/system/module.php:136
+#: admin/modules/system/submenu.php:31
 msgid "Modules"
 msgstr ""
 
@@ -2583,92 +2599,110 @@ msgstr ""
 msgid "Modify global application preferences"
 msgstr ""
 
-#: admin/modules/system/index.php:121
+#: admin/modules/system/index.php:128
 msgid "Settings saved. Refreshing page"
 msgstr ""
 
-#: admin/modules/system/index.php:128
+#: admin/modules/system/index.php:135
 #: admin/modules/system/holiday.php:304
 msgid "Save Settings"
 msgstr ""
 
-#: admin/modules/system/index.php:142
+#: admin/modules/system/index.php:149
 msgid "Library Name"
 msgstr ""
 
-#: admin/modules/system/index.php:145
+#: admin/modules/system/index.php:152
 msgid "Library Subname"
 msgstr ""
 
-#: admin/modules/system/index.php:159
+#: admin/modules/system/index.php:166
 msgid "Public Template"
 msgstr ""
 
-#: admin/modules/system/index.php:172
+#: admin/modules/system/index.php:179
 msgid "Admin Template"
 msgstr ""
 
-#: admin/modules/system/index.php:176
+#: admin/modules/system/index.php:183
 msgid "Default App. Language"
 msgstr ""
 
-#: admin/modules/system/index.php:184
+#: admin/modules/system/index.php:191
 msgid "Number Of Collections To Show In OPAC Result List"
 msgstr ""
 
-#: admin/modules/system/index.php:188
+#: admin/modules/system/index.php:195
 msgid "Show Promoted Titles at Homepage"
 msgstr ""
 
-#: admin/modules/system/index.php:192
-#: admin/modules/system/index.php:198
-#: admin/modules/system/index.php:204
-#: admin/modules/system/index.php:210
-#: admin/modules/system/index.php:216
-#: admin/modules/membership/member_type.php:177
+#: admin/modules/system/index.php:199
+#: admin/modules/system/index.php:211
+#: admin/modules/system/index.php:217
+#: admin/modules/system/index.php:223
+#: admin/modules/system/index.php:229
 msgid "Disable"
 msgstr ""
 
-#: admin/modules/system/index.php:193
-#: admin/modules/system/index.php:199
-#: admin/modules/system/index.php:205
-#: admin/modules/system/index.php:211
-#: admin/modules/system/index.php:217
-#: admin/modules/membership/member_type.php:176
+#: admin/modules/system/index.php:200
+#: admin/modules/system/index.php:212
+#: admin/modules/system/index.php:218
+#: admin/modules/system/index.php:224
+#: admin/modules/system/index.php:230
 msgid "Enable"
 msgstr ""
 
-#: admin/modules/system/index.php:200
+#: admin/modules/system/index.php:205
+#, fuzzy
+msgid "Don't Print"
+msgstr "ﻻ تعزز"
+
+#: admin/modules/system/index.php:206
+#, fuzzy
+msgid "Print"
+msgstr "هبة"
+
+#: admin/modules/system/index.php:207
+#, fuzzy
+msgid "Print Circulation Receipt"
+msgstr "الاستعارة"
+
+#: admin/modules/system/index.php:213
 msgid "Loan and Due Date Manual Change"
 msgstr ""
 
-#: admin/modules/system/index.php:206
+#: admin/modules/system/index.php:219
 msgid "Loan Limit Override"
 msgstr ""
 
-#: admin/modules/system/index.php:212
+#: admin/modules/system/index.php:225
 msgid "OPAC XML Detail"
 msgstr ""
 
-#: admin/modules/system/index.php:218
+#: admin/modules/system/index.php:231
 msgid "OPAC XML Result"
 msgstr ""
 
-#: admin/modules/system/index.php:222
+#: admin/modules/system/index.php:235
 msgid "Forbid"
 msgstr ""
 
-#: admin/modules/system/index.php:223
+#: admin/modules/system/index.php:236
 msgid "Allow"
 msgstr ""
 
-#: admin/modules/system/index.php:224
+#: admin/modules/system/index.php:237
 msgid "Allow OPAC File Download"
 msgstr ""
 
-#: admin/modules/system/index.php:227
+#: admin/modules/system/index.php:240
 msgid "Session Login Timeout"
 msgstr ""
+
+#: admin/modules/system/index.php:243
+#, fuzzy
+msgid "Barcode Encoding"
+msgstr "عنصر الباركود طباعة"
 
 #: admin/modules/system/holiday.php:65
 msgid "Holiday Data Successfully updated"
@@ -2894,7 +2928,6 @@ msgid "Login username or Real Name is probihited!"
 msgstr ""
 
 #: admin/modules/system/app_user.php:66
-#: admin/modules/membership/index.php:58
 msgid "Password confirmation does not match. See if your Caps Lock key is on!"
 msgstr ""
 
@@ -2939,12 +2972,10 @@ msgid "Group(s)"
 msgstr ""
 
 #: admin/modules/system/app_user.php:234
-#: admin/modules/membership/index.php:367
 msgid "New Password"
 msgstr "كلمة السر جديدة"
 
 #: admin/modules/system/app_user.php:236
-#: admin/modules/membership/index.php:369
 msgid "Confirm New Password"
 msgstr ""
 
@@ -2953,7 +2984,6 @@ msgid "You are going to edit user profile"
 msgstr ""
 
 #: admin/modules/system/app_user.php:241
-#: admin/modules/membership/index.php:375
 msgid "Leave Password field blank if you don't want to change the password"
 msgstr ""
 
@@ -3074,11 +3104,11 @@ msgstr ""
 msgid "Kardex data deleted!"
 msgstr ""
 
-#: admin/modules/membership/export.php:105
+#: admin/modules/membership/export.php:102
 msgid "There is no record in membership database yet, Export FAILED!"
 msgstr ""
 
-#: admin/modules/membership/export.php:115
+#: admin/modules/membership/export.php:112
 msgid "Export member(s) data to CSV file"
 msgstr ""
 
@@ -3139,6 +3169,8 @@ msgstr ""
 #: admin/modules/membership/index.php:334
 #: admin/modules/membership/index.php:398
 #: admin/modules/membership/index.php:404
+#: admin/modules/membership/member_card_generator.php:168
+#: admin/modules/membership/member_card_generator.php:224
 msgid "Membership Type"
 msgstr ""
 
@@ -3169,6 +3201,7 @@ msgid "Below member data can't be deleted because still have unreturned item(s)"
 msgstr ""
 
 #: admin/modules/membership/index.php:246
+#: admin/modules/membership/submenu.php:23
 msgid "Membership"
 msgstr "عضوية"
 
@@ -3260,10 +3293,12 @@ msgid "members extended!"
 msgstr ""
 
 #: admin/modules/membership/index.php:441
+#: admin/modules/membership/member_card_generator.php:257
 msgid "Found"
 msgstr ""
 
 #: admin/modules/membership/index.php:441
+#: admin/modules/membership/member_card_generator.php:257
 msgid "from your search with keyword"
 msgstr ""
 
@@ -3365,7 +3400,6 @@ msgid "record each page"
 msgstr ""
 
 #: admin/modules/reporting/report_dbgrid.inc.php:83
-#: admin/modules/reporting/customs/class_recap.php:255
 msgid "Print Current Page"
 msgstr ""
 
@@ -3463,22 +3497,18 @@ msgid "Membership Data Summary"
 msgstr ""
 
 #: admin/modules/reporting/customs/item_titles_list.php:54
-#: admin/modules/reporting/customs/customs_report_list.inc.php:25
 msgid "Items Title List"
 msgstr ""
 
 #: admin/modules/reporting/customs/item_titles_list.php:118
-#: admin/modules/reporting/customs/overdued_list.php:82
 msgid "Record each page"
 msgstr ""
 
 #: admin/modules/reporting/customs/item_titles_list.php:119
-#: admin/modules/reporting/customs/overdued_list.php:83
 msgid "Set between 20 and 200"
 msgstr ""
 
 #: admin/modules/reporting/customs/item_usage.php:53
-#: admin/modules/reporting/customs/customs_report_list.inc.php:26
 msgid "Items Usage Statistics"
 msgstr ""
 
@@ -3560,6 +3590,7 @@ msgid "Title and Collection recapitulation based on classification and others"
 msgstr ""
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:24
+#: admin/modules/reporting/customs/titles_list.php:54
 msgid "Title List"
 msgstr ""
 
@@ -3576,6 +3607,7 @@ msgid "List of Collection/items usage statistic"
 msgstr ""
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:27
+#: admin/modules/reporting/customs/loan_by_class.php:53
 msgid "Loans by Classification"
 msgstr ""
 
@@ -3588,6 +3620,7 @@ msgid "List of library member/patron"
 msgstr ""
 
 #: admin/modules/reporting/customs/customs_report_list.inc.php:29
+#: admin/modules/reporting/customs/member_loan_list.php:54
 msgid "Loan List by Member"
 msgstr ""
 
@@ -3629,10 +3662,14 @@ msgid "Circulation Tasks"
 msgstr ""
 
 #: admin/modules/reporting/customs/overdued_list.php:66
+#: admin/modules/reporting/customs/member_loan_list.php:66
+#: admin/modules/reporting/customs/loan_history.php:81
 msgid "Loan Date From"
 msgstr ""
 
 #: admin/modules/reporting/customs/overdued_list.php:74
+#: admin/modules/reporting/customs/member_loan_list.php:74
+#: admin/modules/reporting/customs/loan_history.php:89
 msgid "Loan Date Until"
 msgstr ""
 
@@ -3763,10 +3800,12 @@ msgid "Date"
 msgstr "تاريخ"
 
 #: simbio2/simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php:87
+#: simbio2/simbio_GUI/form_maker/simbio_form_table.inc.php:95
 msgid "Delete Record"
 msgstr "مسح السجل"
 
 #: simbio2/simbio_GUI/form_maker/simbio_form_table_AJAX.inc.php:88
+#: simbio2/simbio_GUI/form_maker/simbio_form_table.inc.php:96
 msgid "Cancel"
 msgstr "إلغاء"
 
@@ -3802,41 +3841,35 @@ msgid "Back To Previous"
 msgstr "إلى الوراء"
 
 #: template/invention/index_template.inc.php:26
-#: template/default/index_template.inc.php:26
 msgid "Home"
 msgstr " الصفحة الرئيسية"
 
 #: template/invention/index_template.inc.php:27
-#: template/default/index_template.inc.php:27
 msgid "Library Information"
 msgstr "معلومات المكتبة"
 
 #: template/invention/index_template.inc.php:28
-#: template/default/index_template.inc.php:28
 msgid "Help on Search"
 msgstr "مساعدة فى البحث"
 
 #: template/invention/index_template.inc.php:29
-#: template/default/index_template.inc.php:29
 msgid "Member Area"
 msgstr "عضو المنطقة"
 
 #: template/invention/index_template.inc.php:30
-#: template/default/index_template.inc.php:30
 msgid "Librarian LOGIN"
 msgstr "تسجيل الدخول أمين المكتبة"
 
 #: template/invention/index_template.inc.php:60
-#: template/default/index_template.inc.php:51
 msgid "Select Language"
 msgstr "اختيار اللغة"
 
 #: template/invention/index_template.inc.php:66
-#: template/default/index_template.inc.php:68
 msgid "Advanced Search"
 msgstr "بحث متقدم"
 
 #: template/default/index_template.inc.php:60
+#: template/green/index_template.inc.php:60
 msgid "Simple Search"
 msgstr "بحث بسيط"
 
@@ -3867,20 +3900,24 @@ msgid "copies at"
 msgstr ""
 
 #: lib/lang/localisation.php:60
-msgid "English"
-msgstr "انجليزى"
+msgid "Arabic"
+msgstr "عربي"
 
 #: lib/lang/localisation.php:61
-msgid "Indonesian"
-msgstr "أندونيسيا"
-
-#: lib/lang/localisation.php:62
 msgid "German"
 msgstr "ألماني"
+
+#: lib/lang/localisation.php:62
+msgid "English"
+msgstr "انجليزى"
 
 #: lib/lang/localisation.php:63
 msgid "Espanol"
 msgstr ""
+
+#: lib/lang/localisation.php:64
+msgid "Indonesian"
+msgstr "أندونيسيا"
 
 #: lib/contents/login.inc.php:48
 msgid "Please supply valid username and password"
@@ -4011,7 +4048,4 @@ msgstr "غير متاح"
 #: lib/contents/attachment_list.php:48
 msgid "No Attachment"
 msgstr "المرفق غير متاح"
-
-#~ msgid "Arabic"
-#~ msgstr "عربي"
 
